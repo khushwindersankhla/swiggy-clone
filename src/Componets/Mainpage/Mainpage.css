@@ -1,0 +1,24 @@
+.Mainpage{
+    height: 100vh;
+    width: 213vh;
+    background-color: rgb(163, 139, 130);
+    display: flex;
+}
+#image-one{
+    height: 90vh;
+    width: 70vh;
+    background-color: antiquewhite;
+    margin-left: 1vh;
+}
+#image-three{
+    height: 90vh;
+    width: 70vh;
+    background-color: rgb(223, 158, 73);
+    margin-left: 1vh;
+}
+#image-three{
+    height: 90vh;
+    width: 70vh;
+    background-color: rgb(19, 138, 91);
+    margin-left: 1vh;
+}
