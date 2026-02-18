@@ -5,8 +5,12 @@ import { FaLocationDot } from "react-icons/fa6"
 import { IoIosArrowDown } from "react-icons/io";
 import { FaLocationArrow } from "react-icons/fa";
 import { IoSearchOutline } from "react-icons/io5";
-
+import Food from "../../images/food.jpg"
+import Delivery from "../../images/Delivery.jpg"
+import Dineout from "../../images/Dineout.jpg"
 import { useState } from "react";
+import { IoPlay } from "react-icons/io5";
+
 
 
 
@@ -20,6 +24,7 @@ function Mainpage() {
     }
     return (
         <>
+        
             <div className="Mainpage">
                 <div id="image-one">
                     <img src={vegtable} alt="" />
@@ -45,7 +50,18 @@ function Mainpage() {
                             <b id="current">Use my current loaction</b>
                             
                         </div>)}
+                   </div>
+
+
+
+                    <div className="image-box">
+                        <img id="one-image" src={Food} alt="" />
+                        <img id="two-image" src={Delivery} alt="" />
+                        <img id="three-image" src={Dineout} alt="" />
                     </div>
+                   <div className="underline"><IoPlay id="start"/><IoPlay id="end"/></div>
+
+
                 </div>
                 <div id="image-three">
                     <img src={VegtableTwo} alt="" />
