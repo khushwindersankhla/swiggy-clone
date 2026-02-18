@@ -59,9 +59,12 @@
     font-size: 3vh;
     border: 0.3vh solid rgb(105, 105, 105);
     background-color: white;
+    padding-top: 3vh;
+    box-sizing: border-box;
 }
 .inputBox{
     display: flex;
+ 
 }
 #loaction{
     font-size: 4vh;
@@ -83,9 +86,36 @@
 .boxHide{
     height: 15vh;
     width: 120vh;
-    background-color: red;
+    background-color: rgb(255, 255, 255);
     position: absolute;
     margin-top: 13vh;
     margin-left: 3vh;
+    padding-top: 6vh;
+    box-sizing: border-box;
     border-radius: 3vh;
+}
+#current{
+ 
+    box-sizing: border-box;
+    margin-left: 10vh;
+    color: orangered;
+   
+}
+#use{
+    font-size: 3vh;
+    margin-left: 5vh;
+    margin-top: 0.7vh;
+    color: orangered;
+    position: absolute;
+}
+#search{
+    font-size: 3vh;
+    margin-left: 1vh;
+    color: rgb(100, 99, 99);
+}
+#item{
+    font-size: 4vh;
+    margin-left: 3vh;
+  position: absolute;
+  margin-top: 0.1vh;
 }
