@@ -24,7 +24,7 @@ function Mainpage() {
     }
     return (
         <>
-        
+
             <div className="Mainpage">
                 <div id="image-one">
                     <img src={vegtable} alt="" />
@@ -35,22 +35,23 @@ function Mainpage() {
 
                         <div id="inputOne" onClick={hideshow} style={{ cursor: "pointer" }}>
                             <FaLocationDot id="loaction" />
-                            <b id="place">enter your delevery loaction</b>
+                            <b id="place">
+                                enter your delevery loaction</b>
                             <IoIosArrowDown id="arrow" />
 
                         </div>
                         <div id="inputTwo">
                             <b id="search">Search for restaurant, item or more</b>
-                            <IoSearchOutline id="item"/>
+                            <IoSearchOutline id="item" />
 
                         </div>
                         {showBox && (<div className="boxHide">
                             <FaLocationArrow id="use" />
 
                             <b id="current">Use my current loaction</b>
-                            
+
                         </div>)}
-                   </div>
+                    </div>
 
 
 
@@ -59,7 +60,7 @@ function Mainpage() {
                         <img id="two-image" src={Delivery} alt="" />
                         <img id="three-image" src={Dineout} alt="" />
                     </div>
-                   <div className="underline"><IoPlay id="start"/><IoPlay id="end"/></div>
+                    <div className="underline"><IoPlay id="start" /><IoPlay id="end" /></div>
 
 
                 </div>
@@ -67,6 +68,7 @@ function Mainpage() {
                     <img src={VegtableTwo} alt="" />
                 </div>
             </div>
+            <div className="QuestionMain"></div>
         </>
     )
 }
