@@ -68,7 +68,7 @@ function Mainpage() {
                     <img src={VegtableTwo} alt="" />
                 </div>
             </div>
-            <div className="QuestionMain"></div>
+           
         </>
     )
 }
