@@ -29,7 +29,7 @@
 #NavbarBoxTwo {
     height: 6.5vh;
     width: 6.5vh;
-     background-color: rgb(211, 202, 202);
+    background-color: rgb(211, 202, 202);
     margin-left: 190vh;
     position: absolute;
     border-radius: 10vh;
@@ -57,4 +57,211 @@
     background-color: rgb(255, 255, 255);
     display: flex;
     margin: 2vh;
+}
+
+.shopInstamart {
+    height: 70vh;
+    width: 213vh;
+    background-color: rgb(255, 255, 255);
+    padding-top: 14vh;
+
+}
+
+#Groceries {
+    margin-left: 20vh;
+    font-size: 4vh;
+}
+
+.ShopInstamartIcon {
+    display: flex;
+}
+
+#ShopIconOne {
+    height: 6.5vh;
+    width: 6.5vh;
+    background-color: rgb(219, 216, 216);
+    margin-left: 180vh;
+    position: absolute;
+    border-radius: 10vh;
+    margin-top: -5.5vh;
+}
+
+#ShopIconTwo {
+    height: 6.5vh;
+    width: 6.5vh;
+    background-color: rgb(211, 202, 202);
+    margin-left: 190vh;
+    position: absolute;
+    border-radius: 10vh;
+    margin-top: -5.5vh;
+}
+
+.ShopInstamartOne {
+    display: flex;
+}
+
+#ShopInstamartOneOne {
+    height: 35vh;
+    width: 30vh;
+    /* background-color: wheat; */
+    margin-left: 10vh;
+    margin-top: 6vh;
+    border-radius: 3vh;
+}
+
+#ShopInstamartOneOne img {
+    height: 35vh;
+    width: 30vh;
+}
+
+#Fresh {
+    font-size: 3.4vh;
+    margin-left: 3vh;
+}
+
+.CartMain {
+    height: 100vh;
+    width: 214vh;
+    background-color: rgb(45, 25, 162);
+    padding-top: 14vh;
+}
+
+#Best {
+    margin-left: 20vh;
+    font-size: 4vh;
+}
+
+#cartIconMain {
+    display: flex;
+}
+
+#cartIconOne {
+    height: 6.5vh;
+    width: 6.5vh;
+    background-color: rgb(219, 216, 216);
+    margin-left: 180vh;
+    position: absolute;
+    border-radius: 10vh;
+    margin-top: -5.5vh;
+}
+
+#cartIconTwo {
+    height: 6.5vh;
+    width: 6.5vh;
+    background-color: rgb(219, 216, 216);
+    margin-left: 190vh;
+    position: absolute;
+    border-radius: 10vh;
+    margin-top: -5.5vh;
+}
+
+.CartOne {
+    display: flex;
+}
+
+#CartOneOne {
+    height: 60vh;
+    width: 50vh;
+    background-color: wheat;
+    margin-left: 20vh;
+    margin-top: 6vh;
+    border-radius: 3vh;
+}
+
+#CartOneTwo {
+    height: 60vh;
+    width: 50vh;
+    background-color: wheat;
+    margin-left: 10vh;
+    margin-top: 6vh;
+    border-radius: 3vh;
+}
+
+#CartOneThree {
+    height: 60vh;
+    width: 50vh;
+    background-color: wheat;
+    margin-left: 10vh;
+    margin-top: 6vh;
+    border-radius: 3vh;
+}
+
+#CartOneOne img {
+    height: 25vh;
+    width: 50vh;
+    border-radius: 2vh 2vh 0vh 0vh;
+}
+
+#CartOneTwo img {
+    height: 25vh;
+    width: 50vh;
+    border-radius: 2vh 2vh 0vh 0vh;
+}
+
+#CartOneThree img {
+    height: 25vh;
+    width: 50vh;
+    border-radius: 2vh 2vh 0vh 0vh;
+}
+
+#Boss {
+    position: absolute;
+    margin-top: 20vh;
+    margin-left: 2vh;
+    color: white;
+    font-size: 3.4vh;
+}
+
+#StarIcon {
+    position: absolute;
+    margin-top: 21vh;
+    margin-left: 40vh;
+    font-size: 3vh;
+    color: green;
+}
+
+#FourNumber {
+    font-size: 3vh;
+    position: absolute;
+    color: white;
+    margin-left: 43.5vh;
+    margin-top: 20.2vh;
+}
+
+#Asian {
+    font-size: 2.2vh;
+    margin-left: 2vh;
+}
+
+#AsianOne {
+    position: absolute;
+    font-size: 2.2vh;
+    margin-top: -5vh;
+    margin-left: 35vh;
+}
+
+#AsianTwo {
+    font-size: 2.2vh;
+    margin-top: 1vh;
+    margin-left: 2vh;
+}
+
+#AsianThree {
+    font-size: 2.2vh;
+    margin-top: -5vh;
+    margin-left: 43vh;
+    position: absolute;
+}
+
+#OfferBox {
+    height: 8vh;
+    width: 48vh;
+    background-color: rgb(16, 200, 68);
+    margin-left: 1vh;
+    border-radius: 2vh;
+} 
+#percatge{
+    font-size: 5vh;
+    color: white;
+    margin: 1.3vh;
 }
