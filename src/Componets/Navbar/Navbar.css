@@ -122,7 +122,7 @@
 .CartMain {
     height: 100vh;
     width: 214vh;
-    background-color: rgb(45, 25, 162);
+    background-color: rgb(255, 255, 255);
     padding-top: 14vh;
 }
 
@@ -138,7 +138,7 @@
 #cartIconOne {
     height: 6.5vh;
     width: 6.5vh;
-    background-color: rgb(219, 216, 216);
+    background-color: rgb(255, 255, 255);
     margin-left: 180vh;
     position: absolute;
     border-radius: 10vh;
@@ -162,7 +162,7 @@
 #CartOneOne {
     height: 60vh;
     width: 50vh;
-    background-color: wheat;
+    background-color: rgb(242, 237, 237);
     margin-left: 20vh;
     margin-top: 6vh;
     border-radius: 3vh;
@@ -171,7 +171,7 @@
 #CartOneTwo {
     height: 60vh;
     width: 50vh;
-    background-color: wheat;
+    background-color: rgb(242, 237, 237);
     margin-left: 10vh;
     margin-top: 6vh;
     border-radius: 3vh;
@@ -180,7 +180,7 @@
 #CartOneThree {
     height: 60vh;
     width: 50vh;
-    background-color: wheat;
+    background-color: rgb(242, 237, 237);
     margin-left: 10vh;
     margin-top: 6vh;
     border-radius: 3vh;
@@ -263,5 +263,30 @@
 #percatge{
     font-size: 5vh;
     color: white;
-    margin: 1.3vh;
+    margin: 1vh;
+}
+#Off{
+    margin-top: -5.5vh;
+    margin-left: 7vh;
+    display: block;
+    font-size: 2.4vh;
+}
+#OfferBoxOne{
+    height: 8vh;
+    width: 48vh;
+    background-color: rgb(136, 240, 166);
+    margin-left: 1vh;
+    border-radius: 2vh;
+    margin-top: 2vh;
+    box-sizing: border-box;
+    padding-top: 2vh;
+} 
+#Onn{
+    font-size: 2.4vh;
+    margin-left: 3vh;
+  font-weight: 600;
+  margin-top: -0.1vh;
+  color: green;
+  font-size: 2.5vh;
+  
 }

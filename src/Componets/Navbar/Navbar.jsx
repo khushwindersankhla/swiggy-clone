@@ -79,7 +79,9 @@ function Navbar() {
                             <p id="AsianOne">₹ 2200 for two</p>
                             <p id="AsianTwo">The Grand Walk,Gandhi Nagar,Jaipur</p>
                             <p id="AsianThree">4.7km</p>
-                            <div id="OfferBox"><HiMiniPercentBadge id="percatge"/><b>Flat 15% off on pre-booking</b></div>
+                            <div id="OfferBox"><HiMiniPercentBadge id="percatge"/><b id="Off">Flat 15% off on pre-booking</b></div>
+                              <div id="OfferBoxOne"><h6 id="Onn">Up yo 10% off with bank offers</h6></div>
+
                             </div>
                     </div>
                     <div id="CartOneTwo">
@@ -87,12 +89,24 @@ function Navbar() {
                         <MdStars id="StarIcon" />
                         <b id="FourNumber">4.2</b>
                         <img src={Seventeen} alt="" />
+                         <p id="Asian">Continental.North Indian </p>
+                            <p id="AsianOne">₹ 1000 for two</p>
+                            <p id="AsianTwo">Lal Kothi,Jaipur</p>
+                            <p id="AsianThree">0.8km</p>
+                            <div id="OfferBox"><HiMiniPercentBadge id="percatge"/><b id="Off">Flat 15% off on pre-booking</b></div>
+                              <div id="OfferBoxOne"><h6 id="Onn">Up yo 10% off with bank offers</h6></div>
                         </div>
                     <div id="CartOneThree">
                         <b id="Boss">Falahaas For Upwas </b>
                         <MdStars id="StarIcon" />
                         <b id="FourNumber">4.2</b>
                         <img src={Eighteen} alt="" />
+                         <p id="Asian">Maharashtrian.Fast food  </p>
+                            <p id="AsianOne">₹ 1000 for two</p>
+                            <p id="AsianTwo">Vaishali Nagar,Jaipur</p>
+                            <p id="AsianThree">5.1km</p>
+                            <div id="OfferBox"><HiMiniPercentBadge id="percatge"/><b id="Off">Flat 15% off on pre-booking</b></div>
+                              <div id="OfferBoxOne"><h6 id="Onn">Up yo 10% off with bank offers</h6></div>
                         </div>
                 </div>
 
