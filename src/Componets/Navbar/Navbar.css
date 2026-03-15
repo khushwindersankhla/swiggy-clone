@@ -120,7 +120,7 @@
 }
 
 .CartMain {
-    height: 100vh;
+    height: 90vh;
     width: 214vh;
     background-color: rgb(255, 255, 255);
     padding-top: 14vh;
@@ -138,7 +138,7 @@
 #cartIconOne {
     height: 6.5vh;
     width: 6.5vh;
-    background-color: rgb(255, 255, 255);
+   background-color: rgb(219, 216, 216);
     margin-left: 180vh;
     position: absolute;
     border-radius: 10vh;
@@ -289,4 +289,124 @@
   color: green;
   font-size: 2.5vh;
   
+}
+.ImageOneBox{
+    height: 40vh;
+    width: 216vh;
+    background-color: rebeccapurple;
+}
+.ImageOneBox img{
+    height: 40vh;
+    width: 216vh;
+}
+.CityList{
+    height: 500vh;
+    width: 214vh;
+    background-color: rgb(255, 255, 255);
+    padding-top: 15vh;
+    box-sizing: border-box;
+}
+#Cities{
+ margin-left: 20vh;
+    font-size: 4vh;
+}
+.ListCitiesBoxMain{
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+}
+#ListCitiesOne{
+    height: 15vh;
+    width: 35vh;
+    background-color: rgb(255, 255, 255);
+    margin-left: 20vh;
+    margin-top: 2vh;
+    border-radius: 2vh;
+   border: 0.3vh solid rgb(155, 151, 151);
+}
+#ListCitiesTwo{
+    height: 15vh;
+    width: 35vh;
+    background-color: rgb(255, 255, 255);
+     margin-left: 4vh;
+    margin-top: 2vh;
+      border-radius: 2vh;
+    border: 0.3vh solid rgb(155, 151, 151);
+}
+#ListCitiesThree{
+    height: 15vh;
+    width: 35vh;
+    background-color: rgb(255, 255, 255);
+    margin-left: -10vh;
+      border-radius: 2vh;
+    border: 0.3vh solid rgb(155, 151, 151);
+    margin-top: 2vh;
+}
+#ListCitiesFour{
+    height: 15vh;
+    width: 35vh;
+    background-color: rgb(255, 255, 255);
+  margin-left: -25vh;
+    margin-top: 2vh;
+      border-radius: 2vh;
+    border: 0.3vh solid rgb(155, 151, 151);
+}
+#ListCitiesFive{
+    height: 15vh;
+    width: 35vh;
+    background-color: rgb(255, 255, 255);
+    margin-left: 20vh;
+    margin-top: 2vh;
+      border-radius: 2vh;
+    border: 0.3vh solid rgb(155, 151, 151);
+}
+#ListCitiesSix{
+   height: 15vh;
+    width: 35vh;
+    background-color: rgb(255, 255, 255);
+    margin-left: 4vh;
+    margin-top: 2vh;
+      border-radius: 2vh;
+   border: 0.3vh solid rgb(155, 151, 151);
+}
+#ListCitiesSeveen{
+   height: 15vh;
+    width: 35vh;
+    background-color: rgb(255, 255, 255);
+    margin-left: -10vh;
+    margin-top: 2vh;
+      border-radius: 2vh;
+    border: 0.3vh solid rgb(155, 151, 151);
+}
+#ListCitiesEight{
+    height: 15vh;
+    width: 35vh;
+    background-color: rgb(255, 255, 255);
+    margin-left: -25vh;
+      border-radius: 2vh;
+   border: 0.3vh solid rgb(155, 151, 151);
+    margin-top: 2vh;
+}
+#Bangalore{
+    font-weight: 500;
+    margin-left: 5vh;
+}
+#Bang{
+    font-weight: 500;
+    margin-left: 5vh;
+    display: block ;
+}
+.citiyListTwoOne{
+    height: 170vh;
+    width: 214vh;
+    background-color: rgb(255, 255, 255);
+    padding-top: 10vh;
+    box-sizing: border-box;
+}
+#Deli{
+     margin-left: 20vh;
+    font-size: 4vh;
+}
+#CityBoxMain{
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
 }

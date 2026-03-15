@@ -21,8 +21,7 @@ import Seventeen from "../../images/MahalPlace.jpg"
 import Eighteen from "../../images/FoodHotel.jpg"
 import { MdStars } from "react-icons/md";
 import { HiMiniPercentBadge } from "react-icons/hi2";
-
-
+import Nineten from "../../images/Get.png"
 
 function Navbar() {
     return (
@@ -79,37 +78,328 @@ function Navbar() {
                             <p id="AsianOne">₹ 2200 for two</p>
                             <p id="AsianTwo">The Grand Walk,Gandhi Nagar,Jaipur</p>
                             <p id="AsianThree">4.7km</p>
-                            <div id="OfferBox"><HiMiniPercentBadge id="percatge"/><b id="Off">Flat 15% off on pre-booking</b></div>
-                              <div id="OfferBoxOne"><h6 id="Onn">Up yo 10% off with bank offers</h6></div>
+                            <div id="OfferBox"><HiMiniPercentBadge id="percatge" /><b id="Off">Flat 15% off on pre-booking</b></div>
+                            <div id="OfferBoxOne"><h6 id="Onn">Up yo 10% off with bank offers</h6></div>
 
-                            </div>
+                        </div>
                     </div>
                     <div id="CartOneTwo">
                         <b id="Boss">Hari Mahal Palace </b>
                         <MdStars id="StarIcon" />
                         <b id="FourNumber">4.2</b>
                         <img src={Seventeen} alt="" />
-                         <p id="Asian">Continental.North Indian </p>
-                            <p id="AsianOne">₹ 1000 for two</p>
-                            <p id="AsianTwo">Lal Kothi,Jaipur</p>
-                            <p id="AsianThree">0.8km</p>
-                            <div id="OfferBox"><HiMiniPercentBadge id="percatge"/><b id="Off">Flat 15% off on pre-booking</b></div>
-                              <div id="OfferBoxOne"><h6 id="Onn">Up yo 10% off with bank offers</h6></div>
-                        </div>
+                        <p id="Asian">Continental.North Indian </p>
+                        <p id="AsianOne">₹ 1000 for two</p>
+                        <p id="AsianTwo">Lal Kothi,Jaipur</p>
+                        <p id="AsianThree">0.8km</p>
+                        <div id="OfferBox"><HiMiniPercentBadge id="percatge" /><b id="Off">Flat 15% off on pre-booking</b></div>
+                        <div id="OfferBoxOne"><h6 id="Onn">Up yo 10% off with bank offers</h6></div>
+                    </div>
                     <div id="CartOneThree">
                         <b id="Boss">Falahaas For Upwas </b>
                         <MdStars id="StarIcon" />
                         <b id="FourNumber">4.2</b>
                         <img src={Eighteen} alt="" />
-                         <p id="Asian">Maharashtrian.Fast food  </p>
-                            <p id="AsianOne">₹ 1000 for two</p>
-                            <p id="AsianTwo">Vaishali Nagar,Jaipur</p>
-                            <p id="AsianThree">5.1km</p>
-                            <div id="OfferBox"><HiMiniPercentBadge id="percatge"/><b id="Off">Flat 15% off on pre-booking</b></div>
-                              <div id="OfferBoxOne"><h6 id="Onn">Up yo 10% off with bank offers</h6></div>
-                        </div>
+                        <p id="Asian">Maharashtrian.Fast food  </p>
+                        <p id="AsianOne">₹ 1000 for two</p>
+                        <p id="AsianTwo">Vaishali Nagar,Jaipur</p>
+                        <p id="AsianThree">5.1km</p>
+                        <div id="OfferBox"><HiMiniPercentBadge id="percatge" /><b id="Off">Flat 15% off on pre-booking</b></div>
+                        <div id="OfferBoxOne"><h6 id="Onn">Up yo 10% off with bank offers</h6></div>
+                    </div>
                 </div>
+            </div>
+            <div className="ImageOneBox"><img src={Nineten} alt="" /></div>
 
+            <div className="CityList">
+                <b id="Cities">Cities with food delivery</b>
+                <div className="ListCitiesBoxMain">
+                    <div id="ListCitiesOne"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Bangalore</span></h4></div>
+                    <div id="ListCitiesTwo"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Gurgaon</span></h4></div>
+                    <div id="ListCitiesThree"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Hyderabad</span></h4></div>
+                    <div id="ListCitiesFour"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Delhi</span></h4></div>
+                    <div id="ListCitiesFive"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Mumbai</span></h4></div>
+                    <div id="ListCitiesSix"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Pune</span></h4></div>
+                    <div id="ListCitiesSeveen"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Kolkata</span></h4></div>
+                    <div id="ListCitiesEight"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Chennai</span></h4></div>
+                    <div id="ListCitiesFive"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Ahemdabad</span></h4></div>
+                    <div id="ListCitiesSix"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">ChandiGarh</span></h4></div>
+                    <div id="ListCitiesSeveen"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Jaipur</span></h4></div>
+                    <div id="ListCitiesEight"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Kochi</span></h4></div>
+                    <div id="ListCitiesFive"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Ahemdabad</span></h4></div>
+                    <div id="ListCitiesSix"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">ChandiGarh</span></h4></div>
+                    <div id="ListCitiesSeveen"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Jaipur</span></h4></div>
+                    <div id="ListCitiesEight"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Kochi</span></h4></div>
+                    <div id="ListCitiesFive"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Ahemdabad</span></h4></div>
+                    <div id="ListCitiesSix"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">ChandiGarh</span></h4></div>
+                    <div id="ListCitiesSeveen"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Jaipur</span></h4></div>
+                    <div id="ListCitiesEight"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Kochi</span></h4></div>
+                    <div id="ListCitiesFive"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Ahemdabad</span></h4></div>
+                    <div id="ListCitiesSix"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">ChandiGarh</span></h4></div>
+                    <div id="ListCitiesSeveen"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Jaipur</span></h4></div>
+                    <div id="ListCitiesEight"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Kochi</span></h4></div>
+                    <div id="ListCitiesFive"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Ahemdabad</span></h4></div>
+                    <div id="ListCitiesSix"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">ChandiGarh</span></h4></div>
+                    <div id="ListCitiesSeveen"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Jaipur</span></h4></div>
+                    <div id="ListCitiesEight"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Kochi</span></h4></div>
+                    <div id="ListCitiesFive"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Ahemdabad</span></h4></div>
+                    <div id="ListCitiesSix"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">ChandiGarh</span></h4></div>
+                    <div id="ListCitiesSeveen"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Jaipur</span></h4></div>
+                    <div id="ListCitiesEight"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Kochi</span></h4></div>
+                    <div id="ListCitiesFive"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Ahemdabad</span></h4></div>
+                    <div id="ListCitiesSix"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">ChandiGarh</span></h4></div>
+                    <div id="ListCitiesSeveen"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Jaipur</span></h4></div>
+                    <div id="ListCitiesEight"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Kochi</span></h4></div>
+                    <div id="ListCitiesFive"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Ahemdabad</span></h4></div>
+                    <div id="ListCitiesSix"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">ChandiGarh</span></h4></div>
+                    <div id="ListCitiesSeveen"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Jaipur</span></h4></div>
+                    <div id="ListCitiesEight"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Kochi</span></h4></div>
+                    <div id="ListCitiesFive"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Ahemdabad</span></h4></div>
+                    <div id="ListCitiesSix"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">ChandiGarh</span></h4></div>
+                    <div id="ListCitiesSeveen"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Jaipur</span></h4></div>
+                    <div id="ListCitiesEight"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Kochi</span></h4></div>
+                    <div id="ListCitiesFive"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Ahemdabad</span></h4></div>
+                    <div id="ListCitiesSix"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">ChandiGarh</span></h4></div>
+                    <div id="ListCitiesSeveen"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Jaipur</span></h4></div>
+                    <div id="ListCitiesEight"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Kochi</span></h4></div>
+                    <div id="ListCitiesFive"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Ahemdabad</span></h4></div>
+                    <div id="ListCitiesSix"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">ChandiGarh</span></h4></div>
+                    <div id="ListCitiesSeveen"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Jaipur</span></h4></div>
+                    <div id="ListCitiesEight"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Kochi</span></h4></div>
+                    <div id="ListCitiesFive"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Ahemdabad</span></h4></div>
+                    <div id="ListCitiesSix"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">ChandiGarh</span></h4></div>
+                    <div id="ListCitiesSeveen"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Jaipur</span></h4></div>
+                    <div id="ListCitiesEight"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Kochi</span></h4></div>
+                    <div id="ListCitiesFive"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Ahemdabad</span></h4></div>
+                    <div id="ListCitiesSix"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">ChandiGarh</span></h4></div>
+                    <div id="ListCitiesSeveen"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Jaipur</span></h4></div>
+                    <div id="ListCitiesEight"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Kochi</span></h4></div>
+                    <div id="ListCitiesFive"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Ahemdabad</span></h4></div>
+                    <div id="ListCitiesSix"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">ChandiGarh</span></h4></div>
+                    <div id="ListCitiesSeveen"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Jaipur</span></h4></div>
+                    <div id="ListCitiesEight"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Kochi</span></h4></div>
+                    <div id="ListCitiesFive"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Ahemdabad</span></h4></div>
+                    <div id="ListCitiesSix"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">ChandiGarh</span></h4></div>
+                    <div id="ListCitiesSeveen"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Jaipur</span></h4></div>
+                    <div id="ListCitiesEight"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Kochi</span></h4></div>
+                    <div id="ListCitiesFive"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Ahemdabad</span></h4></div>
+                    <div id="ListCitiesSix"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">ChandiGarh</span></h4></div>
+                    <div id="ListCitiesSeveen"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Jaipur</span></h4></div>
+                    <div id="ListCitiesEight"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Kochi</span></h4></div>
+                    <div id="ListCitiesFive"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Ahemdabad</span></h4></div>
+                    <div id="ListCitiesSix"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">ChandiGarh</span></h4></div>
+                    <div id="ListCitiesSeveen"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Jaipur</span></h4></div>
+                    <div id="ListCitiesEight"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Kochi</span></h4></div>
+                    <div id="ListCitiesFive"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Ahemdabad</span></h4></div>
+                    <div id="ListCitiesSix"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">ChandiGarh</span></h4></div>
+                    <div id="ListCitiesSeveen"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Jaipur</span></h4></div>
+                    <div id="ListCitiesEight"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Kochi</span></h4></div>
+                    <div id="ListCitiesFive"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Ahemdabad</span></h4></div>
+                    <div id="ListCitiesSix"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">ChandiGarh</span></h4></div>
+                    <div id="ListCitiesSeveen"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Jaipur</span></h4></div>
+                    <div id="ListCitiesEight"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Kochi</span></h4></div>
+                    <div id="ListCitiesFive"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Ahemdabad</span></h4></div>
+                    <div id="ListCitiesSix"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">ChandiGarh</span></h4></div>
+                    <div id="ListCitiesSeveen"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Jaipur</span></h4></div>
+                    <div id="ListCitiesEight"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Kochi</span></h4></div>
+                    <div id="ListCitiesFive"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Ahemdabad</span></h4></div>
+                    <div id="ListCitiesSix"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">ChandiGarh</span></h4></div>
+                    <div id="ListCitiesSeveen"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Jaipur</span></h4></div>
+                    <div id="ListCitiesEight"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Kochi</span></h4></div>
+                    <div id="ListCitiesFive"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Ahemdabad</span></h4></div>
+                    <div id="ListCitiesSix"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">ChandiGarh</span></h4></div>
+                    <div id="ListCitiesSeveen"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Jaipur</span></h4></div>
+                    <div id="ListCitiesEight"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Kochi</span></h4></div>
+                    <div id="ListCitiesFive"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Ahemdabad</span></h4></div>
+                    <div id="ListCitiesSix"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">ChandiGarh</span></h4></div>
+                    <div id="ListCitiesSeveen"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Jaipur</span></h4></div>
+                    <div id="ListCitiesEight"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Kochi</span></h4></div>
+                    <div id="ListCitiesFive"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Ahemdabad</span></h4></div>
+                    <div id="ListCitiesSix"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">ChandiGarh</span></h4></div>
+                    <div id="ListCitiesSeveen"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Jaipur</span></h4></div>
+                    <div id="ListCitiesEight"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Kochi</span></h4></div>
+                    <div id="ListCitiesFive"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Ahemdabad</span></h4></div>
+                    <div id="ListCitiesSix"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">ChandiGarh</span></h4></div>
+                    <div id="ListCitiesSeveen"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Jaipur</span></h4></div>
+                    <div id="ListCitiesEight"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Kochi</span></h4></div>
+
+                </div>
+            </div>
+            <div className="citiyListTwoOne">
+                <b id="Deli">Cities with grocery delivery</b>
+                <div id="CityBoxMain">
+                    <div id="ListCitiesFive"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Ahemdabad</span></h4></div>
+                    <div id="ListCitiesSix"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">ChandiGarh</span></h4></div>
+                    <div id="ListCitiesSeveen"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Jaipur</span></h4></div>
+                    <div id="ListCitiesEight"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Kochi</span></h4></div>
+                        <div id="ListCitiesFive"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Ahemdabad</span></h4></div>
+                    <div id="ListCitiesSix"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">ChandiGarh</span></h4></div>
+                    <div id="ListCitiesSeveen"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Jaipur</span></h4></div>
+                    <div id="ListCitiesEight"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Kochi</span></h4></div>
+                        <div id="ListCitiesFive"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Ahemdabad</span></h4></div>
+                    <div id="ListCitiesSix"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">ChandiGarh</span></h4></div>
+                    <div id="ListCitiesSeveen"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Jaipur</span></h4></div>
+                    <div id="ListCitiesEight"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Kochi</span></h4></div>
+                        <div id="ListCitiesFive"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Ahemdabad</span></h4></div>
+                    <div id="ListCitiesSix"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">ChandiGarh</span></h4></div>
+                    <div id="ListCitiesSeveen"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Jaipur</span></h4></div>
+                    <div id="ListCitiesEight"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Kochi</span></h4></div>
+                        <div id="ListCitiesFive"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Ahemdabad</span></h4></div>
+                    <div id="ListCitiesSix"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">ChandiGarh</span></h4></div>
+                    <div id="ListCitiesSeveen"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Jaipur</span></h4></div>
+                    <div id="ListCitiesEight"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Kochi</span></h4></div>
+                        <div id="ListCitiesFive"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Ahemdabad</span></h4></div>
+                    <div id="ListCitiesSix"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">ChandiGarh</span></h4></div>
+                    <div id="ListCitiesSeveen"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Jaipur</span></h4></div>
+                    <div id="ListCitiesEight"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Kochi</span></h4></div>
+                        <div id="ListCitiesFive"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Ahemdabad</span></h4></div>
+                    <div id="ListCitiesSix"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">ChandiGarh</span></h4></div>
+                    <div id="ListCitiesSeveen"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Jaipur</span></h4></div>
+                    <div id="ListCitiesEight"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Kochi</span></h4></div>
+                        <div id="ListCitiesFive"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Ahemdabad</span></h4></div>
+                    <div id="ListCitiesSix"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">ChandiGarh</span></h4></div>
+                    <div id="ListCitiesSeveen"><h4 id="Bangalore">Order Food online in <br />
+                        <span id="Bang">Jaipur</span></h4></div>
+                    
+                </div>
             </div>
         </>
     )
