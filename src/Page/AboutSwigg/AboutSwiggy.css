@@ -5,7 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: fixed;
+  /* position: fixed; */
 
 }
 
@@ -47,7 +47,75 @@
 }
 
 .AboutSwiggyNavbar {
-  height: 100vh;
+  height: 150vh;
   width: 213vh;
-  background-color: rebeccapurple;
+  background-color: rgb(255, 255, 255);
+}
+
+.AboutSwiggyNavbar img {
+  height: 150vh;
+  width: 213vh;
+  /* opacity: 0.2; */
+}
+
+#USs {
+  text-align: center;
+  font-size: 6.4vh;
+  margin-top: 5vh;
+  position: absolute;
+  margin-left: 90vh;
+}
+
+#neww {
+  position: absolute;
+  margin-top: 15vh;
+  font-size: 3.5vh;
+  margin-left: 10vh;
+  color: rgb(82, 81, 81);
+}
+
+#ImagswiggyMap {
+  position: absolute;
+  height: 30vh;
+  width: 30vh;
+  margin-top: 30vh;
+  margin-left: 50vh;
+}
+
+#ImageSwiggyOne {
+  position: absolute;
+  height: 30vh;
+  width: 30vh;
+  margin-top: 30vh;
+  margin-left: 120vh;
+}
+
+#ImageSwiggyTwo {
+  position: absolute;
+  height: 30vh;
+  width: 30vh;
+  margin-top: 70vh;
+  margin-left: 30vh;
+}
+#ImageSwiggyThree{
+   position: absolute;
+  height: 30vh;
+  width: 20vh;
+  margin-top: 60vh;
+  margin-left: 90vh;
+}
+#ImageSwiggyFour{
+   position: absolute;
+  height: 30vh;
+  width: 30vh;
+  margin-top: 70vh;
+  margin-left: 130vh;
+}
+#boxxo{
+  background-color: white;
+  width: 213vh;
+  height: 150vh;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  opacity: 0.7;
 }
