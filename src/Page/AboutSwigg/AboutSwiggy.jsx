@@ -30,7 +30,25 @@ function AboutSwiggy() {
         <img src={LogoSwiggyName} alt="" id="ImageSwiggyThree" />
         <img src={Scenes} alt="" id="ImageSwiggyFour" />
         <img src={MapImage} alt="" />
-
+      </div>
+      <div className="ipoBox">
+        <h1 id="NOCC">
+          IPO DELIVERRED-NOVERMBER 2024
+        </h1>
+      </div>
+      <div className="SwiggyVedioBox">
+        <div className="swiggyBoxVedio">
+          <video width="888" height="500" border-radius="10" controls muted>
+            <source
+              src="https://www.swiggy.com/corporate/wp-content/uploads/2024/11/WhatsApp-Video-2024-11-18-at-15.49.51.mp4"
+              type="video/mp4"
+            />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+      <div className="AboutSwiggytextOne">
+        <b id="knoww">GET TO KNOW US</b>
       </div>
     </>
   )
