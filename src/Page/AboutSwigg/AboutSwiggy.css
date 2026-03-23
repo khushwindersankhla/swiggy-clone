@@ -1,0 +1,53 @@
+.AboutSwiggyHeaderMai {
+  height: 20vh;
+  width: 213vh;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+
+}
+
+#AboutSwiggyLogo {
+  height: 12vh;
+  width: 35vh;
+  background-color: rgb(255, 255, 255);
+}
+
+#AboutSwiggyLogo img {
+  height: 10vh;
+  box-sizing: border-box;
+  width: 35vh;
+
+}
+
+#menu {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 2.9vh;
+  margin-left: 4vh;
+  margin-top: -2vh;
+}
+
+#menuu {
+  color: white;
+  text-decoration: underline 0.5vh;
+  margin-left: 4vh;
+  color: orangered;
+  margin-top: -2vh;
+}
+
+#menu:hover {
+  color: rgb(0, 0, 0);
+  color: orangered;
+
+  text-decoration: underline 0.5vh;
+
+}
+
+.AboutSwiggyNavbar {
+  height: 100vh;
+  width: 213vh;
+  background-color: rebeccapurple;
+}
