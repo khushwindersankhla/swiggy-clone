@@ -538,7 +538,264 @@ video {
 
 #perIcon {
   font-size: 5vh;
-  top: 2vh;
+  /* top: 2vh; */
   display: block;
-  margin-left: 1vh;
+  /* margin-left: 1vh; */
+}
+
+.BoardSilderMain {
+  height: 70vh;
+  width: 213vh;
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+#BoardSilderOne {
+  height: 70vh;
+  width: 50vh;
+  background-color: white;
+  margin: 0.2vh;
+  border-radius: 2vh;
+  margin-left: 6vh;
+
+  flex-shrink: 0;
+
+}
+
+#BoardSilderOne img {
+  height: 50vh;
+  width: 50vh;
+}
+
+#BoardSilderTwo {
+  height: 70vh;
+  width: 50vh;
+  background-color: white;
+  margin: 0.2vh;
+  border-radius: 2vh;
+  margin-left: 200vh;
+  flex-shrink: 0;
+
+}
+
+#BoardSilderTwo img {
+  height: 50vh;
+  width: 50vh;
+}
+
+.BoardSilderMain::-webkit-scrollbar {
+  display: none;
+}
+
+.TemaBtn {
+  height: 19vh;
+  width: 213vh;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  box-sizing: border-box;
+  padding-top: 3vh;
+}
+
+#TeamBtnOne {
+  height: 12vh;
+  width: 40vh;
+  background-color: orangered;
+  border-radius: 5vh;
+  margin-left: 14vh;
+  font-size: 3.3vh;
+  color: white;
+  border: none;
+}
+
+#TeamBtnTwo {
+  height: 12vh;
+  width: 40vh;
+  background-color: #ffffff;
+  border-radius: 5vh;
+  margin-left: 5vh;
+  font-size: 3.3vh;
+  color: rgb(116, 113, 113);
+  border: 0.2vh solid rgb(97, 93, 93);
+}
+
+#Rahul {
+  font-size: 3.7vh;
+  margin-left: 2vh;
+}
+
+#Manga {
+  font-size: 3.3vh;
+  margin-top: -0.1vh;
+  margin-left: 2vh;
+}
+
+.BunisenssBox {
+  height: 25vh;
+  width: 213vh;
+  background-color: rgb(254, 253, 255);
+  padding-top: 15vh;
+  box-sizing: border-box;
+}
+
+#Detalis {
+  font-size: 4vh;
+  margin-left: 15vh;
+}
+
+#redline {
+  width: 190vh;
+  margin-left: 15vh;
+  margin-top: 3vh;
+}
+
+.CareersMain {
+  height: 25vh;
+  width: 213vh;
+  background-color: rgb(255, 255, 255);
+  padding-top: 10vh;
+  box-sizing: border-box;
+}
+
+#att {
+  font-size: 6vh;
+  margin-left: 70vh;
+}
+
+.TextImageBox {
+  height: 80vh;
+  width: 213vh;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#TextImageOne {
+  height: 79vh;
+  width: 120vh;
+  background-color: rgb(255, 255, 255);
+  padding-top: 3vh;
+  box-sizing: border-box;
+}
+
+#TextImageTwo {
+  height: 79vh;
+  width: 100vh;
+  background-color: rgb(255, 255, 255);
+
+}
+
+#join {
+  color: rgb(123, 120, 120);
+  font-size: 3.1vh;
+  margin-top: 8vh;
+  margin-left: 2vh;
+}
+
+#Excited {
+  color: rgb(123, 120, 120);
+  font-size: 3.1vh;
+  margin-left: 2vh;
+}
+
+#Delivery {
+  font-size: 3.1vh;
+  margin-left: 2vh;
+  color: rgb(123, 120, 120);
+}
+
+#Careeer {
+  height: 60vh;
+  width: 95vh;
+  margin-top: 10vh;
+  border-radius: 5vh;
+  margin-left: 2vh;
+}
+
+#moree {
+  height: 9vh;
+  width: 20vh;
+  color: white;
+  background-color: orangered;
+  border: none;
+  border-radius: 2vh;
+  font-size: 3vh;
+  margin-left: 3vh;
+}
+
+.Blog {
+  height: 30vh;
+  width: 213vh;
+  background-color: olive;
+  box-sizing: border-box;
+  padding-top: 15vh;
+}
+
+#blogg {
+  font-size: 6vh;
+  margin-left: 80vh;
+}
+
+.SwiggyCardMain {
+  height: 80vh;
+  width: 213vh;
+  background-color: forestgreen;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+
+}
+
+#SwiggyCardMainOne {
+  height: 70vh;
+  width: 65vh;
+  background-color: white;
+  margin: 2vh;
+  border-radius: 3vh;
+  border: solid 0.3vh rgb(114, 109, 109);
+}
+#SwiggyCardImage{
+  width: 65vh;
+  height: 25vh;
+  border-radius: 3vh 3vh 0vh 0vh ;
+}
+#Oct{
+  margin-left: 3vh;
+  color: rgb(98, 94, 94);
+}
+#Cult{
+  font-size: 3.6vh;
+  margin-left: 2vh;
+}
+#Cultt{
+  font-size: 3.6vh;
+  margin-left: 2vh;
+}
+#Culty{
+  font-size: 3.6vh;
+  margin-left: 2vh;
+}
+#CardBtn{
+  height: 7vh;
+  width: 17vh;
+  margin-top: 14vh;
+  margin-left: 3vh;
+  border: none;
+  border-radius: 3vh;
+  color: orangered;
+  background-color: rgb(219, 179, 164);
+}
+#CardBtnOne{
+  height: 7vh;
+  width: 17vh;
+  margin-top: 4vh;
+  margin-left: 3vh;
+  border: none;
+  border-radius: 3vh;
+  color: orangered;
+  background-color: rgb(219, 179, 164);
 }

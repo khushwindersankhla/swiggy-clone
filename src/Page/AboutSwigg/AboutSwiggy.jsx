@@ -19,6 +19,17 @@ import bank from "./../../images/bank.jpg"
 import star from "./../../images/sliderStar.jpg"
 import { IoIosArrowRoundBack } from "react-icons/io";
 // import { IoIosArrowRoundForward } from "react-icons/io";
+import ManagerOne from "./../../images/managementImage.jpg"
+import ManagerTwo from "./../../images/managementTwo.jpg"
+import MangerThree from "./../../images/managementImageThree.jpg"
+import ManagerFour from "./../../images/managementImageFour.jpg"
+import ManagerFive from "./../../images/managementImageFive.jpg"
+import ManagerSeveen from "./../../images/managementImageSeveen.jpg"
+import ManagerSix from "./../../images/managementImgaeSix.jpg"
+import Career from "./../../images/careerAtSwiggy.jpg"
+import CardOne from "./../../images/CardImageOne.jpg"
+import CardTwo from "./../../images/CardImageTwo.jpg"
+import CardThree from "./../../images/CardImageThree.jpg"
 
 function AboutSwiggy() {
 
@@ -211,8 +222,8 @@ function AboutSwiggy() {
         <h1 id="journey">THE SWIGGY JOURNEY</h1>
       </div>
       <div className="SilderBoxsMain" ref={sliderRef}>
-        <button id="btnSilder" onClick={Pre}><IoIosArrowRoundBack id="perIcon"/></button>
-        <button id="btnSilderTwo" onClick={next}><IoIosArrowRoundForward id="perIcon"/></button>
+        <button id="btnSilder" onClick={Pre}><IoIosArrowRoundBack id="perIcon" /></button>
+        <button id="btnSilderTwo" onClick={next}><IoIosArrowRoundForward id="perIcon" /></button>
         <div id="SilderBoxOne">
           <p id="food">Launch of our Food <br />delivery business</p>
           <img src={Foodd} alt="" id="ImageFood" />
@@ -222,26 +233,107 @@ function AboutSwiggy() {
           <img src={FoodOneSilder} alt="" id="ImageFoodOne" />
         </div>
         <div id="SilderBoxOne">
-          <p id="food">Launch of membership<br/> programme Siggu One</p>
+          <p id="food">Launch of membership<br /> programme Siggu One</p>
           <img src={FoodOneSilderTwo} alt="" id="ImageFoodd" />
         </div>
         <div id="SilderBoxOne">
-          <p id="food">Acquisition and intehration <br/>of Dineouton Swiggy app </p>
+          <p id="food">Acquisition and intehration <br />of Dineouton Swiggy app </p>
           <img src={swiggyMinis} alt="" id="ImageFood" />
         </div>
         <div id="SilderBoxOne">
-          <p id="food">Launch of Swiggy HDFC Bank<br/> cp-branded credit <br/>card</p>
+          <p id="food">Launch of Swiggy HDFC Bank<br /> cp-branded credit <br />card</p>
           <img src={bank} alt="" id="ImageFooddd" />
         </div>
         <div id="SilderBoxOne">
-          <p id="food">Launch of Bolt and Swiggy<br/> Scenes</p>
+          <p id="food">Launch of Bolt and Swiggy<br /> Scenes</p>
           <img src={star} alt="" id="ImageFoodba" />
         </div>
         <div id="SilderBoxOne">
-          <p id="food">Swiggy platfrom crossed<br/> 123 million ever transacted <br/>users</p>
+          <p id="food">Swiggy platfrom crossed<br /> 123 million ever transacted <br />users</p>
           <img src={Foodd} alt="" id="ImageFoodga" />
         </div>
 
+      </div>
+
+
+
+      <div className="BunisenssBox"><b id="Detalis">Detalis of Business</b><hr id="redline" /></div>
+
+      <div className="TemaBtn">
+        <button id="TeamBtnOne"><b>Management Team</b></button>
+        <button id="TeamBtnTwo"><b>Board of Directors</b></button>
+      </div>
+      <div className="BoardSilderMain">
+        <button id="BoardBtn"></button>
+        <div id="BoardSilderTwo"><img src={ManagerOne} alt="" /><b id="Rahul">Sriharsha Majety</b><p id="Manga">Managing Director and<br /> Group CEO</p></div>
+        <div id="BoardSilderOne"><img src={ManagerTwo} alt="" /><b id="Rahul">Nandan Reddy </b><p id="Manga">Managing Director and Group CEO</p></div>
+        <div id="BoardSilderOne"><img src={MangerThree} alt="" /><b id="Rahul">Rohiy Kapoor</b><p id="Manga">CEO- Food Marketplace</p></div>
+        <div id="BoardSilderOne"><img src={ManagerFour} alt="" /><b id="Rahul">Phani Kishan</b><p id="Manga">Chief Growth Office</p></div>
+        <div id="BoardSilderOne"><img src={ManagerFive} alt="" /><b id="Rahul">Rahul Bathro</b><p id="Manga">Chief Financial OFficer</p></div>
+        <div id="BoardSilderOne"><img src={ManagerSix} alt="" /><b id="Rahul">Madhusudhan Rao</b><p id="Manga">Chief Technology Officer</p></div>
+        <div id="BoardSilderOne"><img src={ManagerSeveen} alt="" /><b id="Rahul">Girish Menon</b><p id="Manga">Chief Human Reseach Officer</p></div>
+      </div><hr />
+
+      <div className="CareersMain"><b id="att">CAREERS AT SWIGGY</b></div>
+      <div className="TextImageBox">
+        <div id="TextImageOne">
+          <p id="join">
+            When you work at Swiggy, you’re joining a culture of innovation,
+            teamwork, and endless possibilities. We believe in empowering our
+            employees to take charge of their careers and make a real impact.
+            Whether you’re a software engineer, a marketing guru, a logistics
+            expert, or someone who loves delivering exceptional customer experiences,
+            there’s a place for you at Swiggy.</p>
+
+          <p id="Excited">If you’re excited about making a difference
+            and want to be part of a team that’s transforming the way people live, then
+            we want to hear from you!</p>
+
+          <p id="Delivery">Explore our current openings and embark
+            on your next career adventure with Swiggy. Let’s deliver unparalleled
+            convenience together!</p>
+
+          <button id="moree"><b>know more</b></button>
+        </div>
+        <div id="TextImageTwo">
+          <img src={Career} alt="" id="Careeer" />
+        </div>
+
+      </div><hr />
+
+      <div className="Blog"><b id="blogg">SWIGGY BLOG</b></div>
+
+      <div className="SwiggyCardMain">
+        <div id="SwiggyCardMainOne">
+          <img src={CardOne} alt="" id="SwiggyCardImage" />
+          <p id="Oct">October 12,2024</p>
+          <b id="Cult">Bridging cultures through cuisine:<br /></b>
+
+          <b id="Cultt"> The Nasi and Mee Story</b><br />
+
+          <button id="CardBtn"><b>Read more</b></button>
+        </div>
+        <div id="SwiggyCardMainOne">
+          <img src={CardTwo} alt="" id="SwiggyCardImage" />
+          <p id="Oct">October 12,2024</p>
+          <b id="Cult">Hiring from 1x to 10x via Swiggy's <br /></b>
+
+          <b id="Cultt">Future Proofing Strategy</b><br />
+                    <button id="CardBtn"><b>Read more</b></button>
+
+        </div>
+        <div id="SwiggyCardMainOne">
+          <img src={CardThree} alt="" id="SwiggyCardImage" />
+          <p id="Oct">October 12,2024</p>
+          <b id="Culty">Taking Local Campaigns to the<br /></b>
+          <b id="Culty">National Stage,Ft.Rana Bayas,</b> <br />
+          <b id="Culty"> Senior Area sales Manager at</b><br />
+          <b id="Culty">Swiggy</b><br />
+           <button id="CardBtnOne"><b>Read more</b></button>
+
+
+         
+        </div>
       </div>
     </>
   )
