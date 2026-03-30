@@ -30,6 +30,9 @@ import Career from "./../../images/careerAtSwiggy.jpg"
 import CardOne from "./../../images/CardImageOne.jpg"
 import CardTwo from "./../../images/CardImageTwo.jpg"
 import CardThree from "./../../images/CardImageThree.jpg"
+import ScanImage from "./../../images/ScanImage.jpg"
+import Map from "./../../images/LoactionImage.jpg"
+import { FaLinkedin, FaInstagram, FaFacebook, FaPinterest, FaTwitter } from "react-icons/fa";
 
 function AboutSwiggy() {
 
@@ -330,11 +333,105 @@ function AboutSwiggy() {
           <b id="Culty"> Senior Area sales Manager at</b><br />
           <b id="Culty">Swiggy</b><br />
            <button id="CardBtnOne"><b>Read more</b></button>
-
-
-         
-        </div>
+          </div>
       </div>
+      <div className="ExploreBtn"><button id="ExploreBtnOne"><b>Explore</b></button></div>
+      <div className="ScaanBoxImage"><img src={ScanImage} alt="" /></div>
+      <div className="TouchText"><b id="fITT">GET IN TOUCH WITH US</b></div>
+
+      <div className="LoactionBox">
+        <div id="LoactionBoxOne">
+          <b id="Addd">Head Office Address:</b>
+          <p id="Ground">SwiggyLimited (Formerly known as Bundl Technologies Private Limited & Swiggy rivate Limited )<br/>
+            No. 55 Sy No 8 o 14 | & J Block-Ground Floor,Embassy Tech Village| <br/>
+            Out Ring Road, Devarisanahalli, Bengaluru-560103
+          </p>
+          <b id="Add">For help and support:</b>
+          <p id="Eamil">Email: support@swiggy.in</p>
+        </div>
+          <div id="LoactionBoxTwo">
+            <div id="LoactionBoxTwoTwo"><img src={Map} alt="" /></div>
+          </div>
+      </div>
+
+
+      {/* Footer........................................... */}
+       <footer className="footer">
+      <div className="footer-container">
+        
+        {/* Logo Section */}
+        <div className="footer-logo">
+          <h2>Swiggy</h2>
+          <p>© 2026 Swiggy Limited</p>
+        </div>
+
+        {/* Company */}
+        <div className="footer-col">
+          <h3>Company</h3>
+          <ul>
+            <li>About Us</li>
+            <li>Investor Relations</li>
+            <li>Careers</li>
+            <li>Team</li>
+            <li>Swiggy One</li>
+            <li>Swiggy Instamart</li>
+            <li>Swiggy Dineout</li>
+          </ul>
+        </div>
+
+        {/* Contact */}
+        <div className="footer-col">
+          <h3>Contact us</h3>
+          <ul>
+            <li>Help & Support</li>
+            <li>Partner with us</li>
+            <li>Ride with us</li>
+          </ul>
+
+          <h3 className="mt">Legal</h3>
+          <ul>
+            <li>Terms & Conditions</li>
+            <li>Cookie Policy</li>
+            <li>Privacy Policy</li>
+          </ul>
+        </div>
+
+        {/* Cities */}
+        <div className="footer-col">
+          <h3>Available in:</h3>
+          <ul>
+            <li>Bangalore</li>
+            <li>Gurgaon</li>
+            <li>Hyderabad</li>
+            <li>Delhi</li>
+            <li>Mumbai</li>
+            <li>Pune</li>
+          </ul>
+          <button className="city-btn">679 cities</button>
+        </div>
+
+        {/* Life at Swiggy */}
+        <div className="footer-col">
+          <h3>Life at Swiggy</h3>
+          <ul>
+            <li>Explore with Swiggy</li>
+            <li>Swiggy News</li>
+            <li>Snackables</li>
+          </ul>
+
+          <h3 className="mt">Social Links</h3>
+          <div className="social-icons">
+            <FaLinkedin />
+      <FaInstagram />
+      <FaFacebook />
+      <FaPinterest />
+      <FaTwitter />
+          </div>
+        </div>
+
+      </div>
+    </footer>
+    
     </>
   )
 }

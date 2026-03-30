@@ -730,7 +730,7 @@ video {
 .Blog {
   height: 30vh;
   width: 213vh;
-  background-color: olive;
+  background-color: rgb(255, 255, 255);
   box-sizing: border-box;
   padding-top: 15vh;
 }
@@ -743,7 +743,7 @@ video {
 .SwiggyCardMain {
   height: 80vh;
   width: 213vh;
-  background-color: forestgreen;
+  background-color: rgb(255, 255, 255);
   justify-content: center;
   align-items: center;
   display: flex;
@@ -798,4 +798,173 @@ video {
   border-radius: 3vh;
   color: orangered;
   background-color: rgb(219, 179, 164);
+}
+.ExploreBtn{
+  height: 25vh;
+  width: 213vh;
+  background-color: rgb(255, 255, 255);
+}
+#ExploreBtnOne{
+  height: 8vh;
+  width: 20vh;
+  background-color: orangered;
+  border-radius: 3vh;
+  border: none;
+  color: white;
+  margin-left: 90vh;
+  margin-top: 4vh;
+}
+.ScaanBoxImage{
+  height: 50vh;
+  width: 213vh;
+  background-color: honeydew;
+
+}
+.ScaanBoxImage img{
+  height: 50vh;
+  width: 213vh;
+}
+.TouchText{
+  height: 20vh;
+  width: 213vh;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  padding-top: 8vh;
+}
+#fITT{
+  font-size: 6vh;
+  margin-left: 70vh;
+
+}
+.LoactionBox{
+  height: 80vh;
+  width: 213vh;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#LoactionBoxOne{
+  height: 79vh;
+  width: 105vh;
+  background-color: white;
+   padding-top: 4vh;
+   box-sizing: border-box;
+}
+
+#LoactionBoxTwo{
+  height: 79vh;
+  width: 105vh;
+  background-color: rgb(255, 255, 255);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+#Addd{
+  font-size: 3.3vh;
+    margin-left: 7vh;
+}
+#Ground{
+  font-size: 3vh;
+  margin-left: 7vh;
+  color: rgb(112, 102, 102);
+}
+#Add{
+  font-size: 3.3vh;
+    margin-left: 7vh;
+    margin-top: 10vh;
+    display: block;
+}
+#Eamil{
+   font-size: 3vh;
+  margin-left: 7vh;
+  color: rgb(112, 102, 102);
+}
+#LoactionBoxTwoTwo{
+  height: 70vh;
+  width: 100vh;
+  background-color: white;
+  border-radius: 5vh;
+}
+#LoactionBoxTwoTwo img{
+  height: 70vh;
+  width: 95vh;
+}
+.footer {
+  background-color: #f5f5f5;
+  padding: 40px 80px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-logo h2 {
+  color: #ff5200;
+  margin-bottom: 10px;
+}
+
+.footer-logo p {
+  color: #555;
+  font-size: 14px;
+}
+
+.footer-col {
+  min-width: 180px;
+}
+
+.footer-col h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.footer-col ul li:hover {
+  color: #000;
+}
+
+.mt {
+  margin-top: 20px;
+}
+
+.city-btn {
+  margin-top: 10px;
+  padding: 8px 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background: white;
+  cursor: pointer;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.social-icons span {
+  width: 30px;
+  height: 30px;
+  background: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-size: 12px;
+  cursor: pointer;
 }
