@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Newroom from "./Page/AboutSwigg/Newroom/Newroom";
 // import Header from './Componets/Header/Header.jsx';
 // import Mainpage from './Componets/Mainpage/Mainpage.jsx';
 // import Footer from "./Componets/Footer/Footer.jsx";
@@ -16,7 +17,8 @@ function App() {
    */}
       {/* <AboutSwiggy/> */}
       {/* <Delivery /> */}
-      {/* <Footer /> */} */
+      {/* <Footer /> */}
+      <Newroom />
     </>
   );
 }
