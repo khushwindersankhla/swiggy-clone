@@ -1,0 +1,207 @@
+.OurMainText {
+    height: 30vh;
+    width: 214vh;
+    background-color: rgb(255, 255, 255);
+    padding-top: 10vh;
+    box-sizing: border-box;
+}
+
+#headingTextMain {
+    margin-left: 70vh;
+}
+
+#paraTextMain {
+    font-size: 3.3vh;
+    margin-left: 52vh;
+}
+
+.OurBoxTwo {
+    height: 80vh;
+    width: 214vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#OurBoxOneOne {
+    height: 55vh;
+    border-radius: 4vh;
+    border: 0.3vh solid rgb(145, 133, 133);
+    width: 37vh;
+    margin: 1vh;
+    background-color: rgb(250, 251, 251);
+}
+
+#OurBoxOneOne:hover {
+    box-shadow: 0 15px 30px orangered;
+}
+
+
+
+#OurBoxOneOneImage {
+    height: 30vh;
+    width: 30vh;
+    margin-left: 5vh;
+    margin-top: 3vh;
+    transition: 1s;
+}
+
+#OurBoxOneOneImageTwo {
+    height: 27vh;
+    width: 30vh;
+    margin-left: 5vh;
+    transition: 1s;
+    margin-top: 3vh;
+}
+
+#OurBoxOneOneImageThree {
+    height: 30vh;
+    width: 30vh;
+    margin-left: 5vh;
+    margin-top: 3vh;
+    transition: 1s;
+}
+
+#OurBoxOneOneImageFour {
+    height: 35vh;
+    width: 35vh;
+    margin-left: 2vh;
+    margin-top: 3vh;
+    transition: 1s;
+}
+
+#OurBoxOneOneImageFive {
+    height: 33vh;
+    width: 30vh;
+    margin-left: 2vh;
+    transition: 1s;
+    margin-top: 3vh;
+}
+
+#OurBoxOneOneImage:hover {
+    transform: scale(1.5);
+}
+
+#OurBoxOneOneImageTwo:hover {
+    transform: scale(1.5);
+}
+
+#OurBoxOneOneImageThree:hover {
+    transform: scale(1.5);
+}
+
+#OurBoxOneOneImageFour:hover {
+    transform: scale(1.5);
+}
+
+#OurBoxOneOneImageFive:hover {
+    transform: scale(1.5);
+}
+
+#OurBoxOneOnebtn {
+    height: 10vh;
+    width: 32vh;
+    margin-top: 10vh;
+    margin-left: 3vh;
+    font-size: 3vh;
+    border: none;
+    border-radius: 4vh;
+    color: rgb(72, 70, 70);
+}
+
+#OurBoxOneTwobtn {
+    height: 10vh;
+    width: 32vh;
+    margin-top: 13vh;
+    margin-left: 3vh;
+    font-size: 3vh;
+    border: none;
+    color: rgb(72, 70, 70);
+
+    border-radius: 4vh;
+}
+
+#OurBoxOneFourbtn {
+    height: 10vh;
+    width: 32vh;
+    margin-top: 5vh;
+    margin-left: 3vh;
+    color: rgb(72, 70, 70);
+
+    font-size: 3vh;
+    border: none;
+    border-radius: 4vh;
+}
+
+#OurBoxOneFivebtn {
+    height: 10vh;
+    width: 32vh;
+    margin-top: 7vh;
+    margin-left: 3vh;
+    font-size: 3vh;
+    border: none;
+    border-radius: 4vh;
+    color: rgb(72, 70, 70);
+
+}
+
+.OurBoxThreeSwiggy {
+    height: 100vh;
+    width: 214vh;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.OurBoxThreeOneSwiggy {
+    height: 60vh;
+    border-radius: 7vh;
+    width: 190vh;
+    background-color: rgb(240, 202, 171);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.OurBoxThreeOneOneSwiggy {
+    height: 59vh;
+    width: 70vh;
+    /* background-color: wheat; */
+}
+
+.OurBoxThreeOneTwoSwiggy {
+    height: 59vh;
+    width: 110vh;
+    /* background-color: rgb(186, 245, 179); */
+}
+
+.OurBoxThreeOneOneSwiggy img {
+    height: 69vh;
+    width: 65vh;
+    /* background-color: wheat; */
+}
+
+#OurBoxThreeOneTwoHeadingSwiggy {
+    font-size: 4.5vh;
+    margin-top: 10vh;
+    display: block;
+}
+
+#OurBoxThreeOneTwoparaSwiggy {
+    font-size: 3.2vh;
+    margin-top: 2vh;
+}
+
+#OurBoxThreeOneTwoBtngy {
+    height: 9vh;
+    width: 24vh;
+    background-color: orangered;
+    border: none;
+    font-size: 3vh;
+    margin-left: 0vh;
+    margin-top: 5vh;
+    color: white;
+    border-radius: 3vh;
+}

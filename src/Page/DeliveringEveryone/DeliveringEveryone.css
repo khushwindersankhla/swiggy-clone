@@ -1,0 +1,154 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.DeliveryManBox{
+  height: 20vh;
+  width: 214vh;
+  background-color: rgb(255, 255, 255);
+  padding-top: 10vh;
+  box-sizing: border-box;
+}
+#BoxText{
+  margin-left: 90vh;
+}
+.DeveryOneBox{
+  height: 120vh;
+  width: 214vh;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  padding-top: 20vh;
+  box-sizing: border-box;
+
+}
+.DeveryOneBoxOne{
+  height: 90vh;
+  width: 70vh;
+  background-color: rgb(244, 239, 239);
+  margin-left: 30vh;
+  border-radius: 7vh;
+   border: 0.7vh solid white;
+  transition: 0.3s;
+}
+.DeveryOneBoxTwo{
+  height: 90vh;
+  width: 70vh;
+  background-color: rgb(244, 239, 239);
+ margin-left: 2vh;
+ border-radius: 7vh;
+ border: 0.7vh solid white;
+   transition: 0.3s;
+
+}
+.DeveryOneBoxTwo:hover{
+border-left: 0.6vh solid orangered;
+border-right: 0.6vh solid orangered;
+border-top: 0.6vh solid orangered;
+  box-shadow: 0 20px 40px orangered;
+
+}
+.DeveryOneBoxOne:hover{
+border-left: 0.6vh solid orangered;
+border-right: 0.6vh solid orangered;
+border-top: 0.6vh solid orangered;
+  box-shadow: 0 20px 40px orangered;
+
+}
+#HeadingText{
+  font-size: 5vh;
+  margin-left: 18vh;
+  margin-top: 13vh;
+}
+#BoxLineFood{
+  width: 60vh;
+  margin-left: 6vh;
+  margin-top: 2vh;
+  background-color: white;
+  color: white;
+  height: 0.2vh;
+  border: none;
+}
+#OnTwxt{
+  font-size: 3vh;
+  margin-top: 3vh;
+  margin-left: 7vh;
+}
+#BtnDevelery{
+  height: 9vh;
+width: 40vh;
+background-color: orangered;
+color: white;
+border-radius: 2vh;
+border: none;
+margin-left: 15vh;
+margin-top: 6vh;
+}
+#FastFoodImage{
+  height: 30vh;
+  width: 30vh;
+  position: absolute;
+  margin-top: -16vh;
+  margin-left: 20vh;
+}
+#FastFoodBagImage{
+  height: 30vh;
+  width: 22vh;
+  position: absolute;
+  margin-top: -18vh;
+  margin-left: 25vh;
+}
+#BtnDeveleryTwo{
+  height: 9vh;
+width: 40vh;
+background-color: orangered;
+color: white;
+border-radius: 2vh;
+border: none;
+margin-left: 15vh;
+margin-top: 14vh;
+}
+.SecondBoxMain{
+  height: 130vh;
+  width: 214vh;
+  background-color: rgb(255, 255, 255);
+  padding-top: 20vh;
+  box-sizing: border-box;
+  display: flex;
+}
+#HeadingTextDine{
+ font-size: 5vh;
+  margin-left: 24vh;
+  margin-top: 13vh;
+}
+#BtnDevelerythree{
+   height: 9vh;
+width: 50vh;
+background-color: orangered;
+color: white;
+border-radius: 2vh;
+border: none;
+margin-left: 10vh;
+margin-top: 20vh;
+font-size: 3vh;
+}
+#HeadingTextIna{
+   font-size: 5vh;
+  margin-left: 24vh;
+  margin-top: 13vh;
+}
+#BtnDeveleryThreee{
+    height: 9vh;
+width: 30vh;
+background-color: orangered;
+color: white;
+border-radius: 2vh;
+border: none;
+margin-left: 20vh;
+margin-top: 8vh;
+font-size: 3vh;
+}
+#Khushwonder{
+  height: 50vh;
+  width: 214vh;
+
+}
