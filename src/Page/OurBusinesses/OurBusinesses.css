@@ -205,3 +205,58 @@
     color: white;
     border-radius: 3vh;
 }
+.OurBoxFourSwiggy{
+height: 80vh;
+width: 214vh;
+background-color: rgb(255, 255, 255);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.OurBoxFourSwiggOne{
+    height: 55vh;
+    width: 190vh;
+    background-color: rgb(146, 65, 176);
+     border-radius: 3vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.OurBoxFourSwiggOneOne{
+    height:54vh;
+    width: 110vh;
+    background-color: rgb(146, 65, 176);
+}
+.OurBoxFourSwiggOneTwo{
+    height:54vh;
+    width: 77vh;
+    /* background-color: rgb(76, 13, 118); */
+}
+
+#OurBoxFourSwiggOneOneHDFC{
+    font-size: 5vh;
+    color: white;
+    margin-left: 14vh;
+    margin-top: 6vh;
+    display: block;
+}
+#OurBoxFourSwiggOneOneHDFCpara{
+    font-size: 3.1vh;
+    margin-left: 14vh;
+    color: white;
+}
+#OurBoxFourSwiggOneOnebtn{
+    height: 8vh;
+    width: 20vh;
+    background-color: orangered;
+    color: white;
+    margin-top: 1vh;
+    border: none;
+    border-radius: 2vh;
+    margin-left: 14vh;
+
+}
+.OurBoxFourSwiggOneTwo img{
+    height:60vh;
+    width: 75vh;
+}

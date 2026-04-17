@@ -5,6 +5,7 @@ import OurThree from "./OurBusinessesImage/Group.jpg"
 import OurFour from "./OurBusinessesImage/home.jpg"
 import OurFive from "./OurBusinessesImage/flavourCopy.jpg"
 import OurSix from "./OurBusinessesImage/swiggyOneONe.jpg"
+import OurSeveeb from "./OurBusinessesImage/HDFCCard.jpg"
 function OurBusinesses() {
   return (
     <>
@@ -34,7 +35,17 @@ function OurBusinesses() {
         </div>
       </div>
 
-      
+      <div className="OurBoxFourSwiggy">
+        <div className="OurBoxFourSwiggOne">
+          <div className="OurBoxFourSwiggOneOne">
+            <b id="OurBoxFourSwiggOneOneHDFC">HDFC Bank Credit Card</b>
+            <p id="OurBoxFourSwiggOneOneHDFCpara">Get ready to experience the awesome world of cashback<br/>
+             and benefits with the Swiggy HDFC Bank Credit Card!</p>
+             <button id="OurBoxFourSwiggOneOnebtn"><b>Apply Now</b></button>
+          </div>
+            <div className="OurBoxFourSwiggOneTwo"><img src={OurSeveeb} alt="" /></div>
+        </div>
+      </div><hr/>
     </>
   )
 }
