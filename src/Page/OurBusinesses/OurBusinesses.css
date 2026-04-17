@@ -260,3 +260,104 @@ align-items: center;
     height:60vh;
     width: 75vh;
 }
+.OurBoxFiveSwiggy{
+    height: 70vh;
+    width: 213vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.OurBoxFiveSwiggyOne{
+    height: 55vh;
+    width: 106vh;
+    background-color: rgb(255, 255, 255);
+    padding-top: 3vh;
+    box-sizing: border-box;
+}
+.OurBoxFiveSwiggyTwo{
+    height: 55vh;
+    width: 106vh;
+    /* background-color: rgb(27, 82, 129); */
+}
+#OurBoxFiveSwiggyOneOne{
+    font-size: 4.4vh;
+    margin-left: 5vh;
+}
+#OurBoxFiveSwiggyOnePara{
+    color: rgb(120, 116, 116);
+    font-size: 3.3vh;
+    margin-left: 5vh;
+}
+#OurBoxFiveSwiggyOnebtn{
+    height: 8vh;
+    width: 20vh;
+    background-color: orangered;
+    border: none;
+    border-radius: 2vh;
+    margin-left: 5vh;
+    margin-top: 9vh;
+}
+.OurBoxFiveSwiggyTwo img{
+    height: 70vh;
+    position: absolute;
+    width: 95vh;
+    margin-top: -10vh;
+    /* background-color: 
+    rgb(27, 82, 129); */
+    margin-left: 3vh;
+}
+.OurBoxSixSwiggy{
+    height: 70vh;
+    width: 214vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.OurBoxSixSwiggyOne{
+    height: 60vh;
+    width: 105vh;
+    background-color: rgb(255, 255, 255);
+}
+.OurBoxSixSwiggyTwo{
+    height: 60vh;
+    width: 105vh;
+    background-color: rgb(255, 255, 255);
+}
+#OurBoxSixSwiggyTwoBlod{
+    font-size: 4vh;
+    color: rgb(0, 0, 0);
+    margin-left: 4vh;
+    margin-top: 4vh;
+    display: block;
+}
+#OurBoxSixSwiggyTwopara{
+    font-size: 3vh;
+    color: rgb(135, 131, 131);
+    margin-left: 4vh;
+}
+#OurBoxSixSwiggyTwoBtn{
+    height: 10vh;
+    width: 24vh;
+    background-color: orangered;
+    border: none;
+    border-radius: 2vh;
+    margin-left: 4vh;
+    color: white;
+    margin-top: 10vh;
+}
+.OurBoxSixSwiggyOne img{
+    height: 80vh;
+    position: absolute;
+    width: 96vh;
+    margin-left: 2vh;
+    margin-top: -18vh;
+}
+.OurBoxSeveenSwiggy img{
+    height: 55vh;
+    width: 214vh;
+ 
+
+}

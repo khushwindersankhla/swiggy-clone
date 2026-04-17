@@ -6,6 +6,9 @@ import OurFour from "./OurBusinessesImage/home.jpg"
 import OurFive from "./OurBusinessesImage/flavourCopy.jpg"
 import OurSix from "./OurBusinessesImage/swiggyOneONe.jpg"
 import OurSeveeb from "./OurBusinessesImage/HDFCCard.jpg"
+import OurEight from "./OurBusinessesImage/DeveliverflayBoy.jpg"
+import Ournine from "./OurBusinessesImage/Boy&Gril.jpg"
+import ourTen from "./OurBusinessesImage/OurScan.png"
 function OurBusinesses() {
   return (
     <>
@@ -30,7 +33,7 @@ function OurBusinesses() {
               offers members discounts and promotions on our platform, including free<br />
               delivery on select orders. Users can become Swiggy One members by paying <br />
               a membership fee.</p>
-              <button id="OurBoxThreeOneTwoBtngy"><p>Know more</p></button>
+            <button id="OurBoxThreeOneTwoBtngy"><p>Know more</p></button>
           </div>
         </div>
       </div>
@@ -39,13 +42,40 @@ function OurBusinesses() {
         <div className="OurBoxFourSwiggOne">
           <div className="OurBoxFourSwiggOneOne">
             <b id="OurBoxFourSwiggOneOneHDFC">HDFC Bank Credit Card</b>
-            <p id="OurBoxFourSwiggOneOneHDFCpara">Get ready to experience the awesome world of cashback<br/>
-             and benefits with the Swiggy HDFC Bank Credit Card!</p>
-             <button id="OurBoxFourSwiggOneOnebtn"><b>Apply Now</b></button>
+            <p id="OurBoxFourSwiggOneOneHDFCpara">Get ready to experience the awesome world of cashback<br />
+              and benefits with the Swiggy HDFC Bank Credit Card!</p>
+            <button id="OurBoxFourSwiggOneOnebtn"><b>Apply Now</b></button>
           </div>
-            <div className="OurBoxFourSwiggOneTwo"><img src={OurSeveeb} alt="" /></div>
+          <div className="OurBoxFourSwiggOneTwo"><img src={OurSeveeb} alt="" /></div>
         </div>
-      </div><hr/>
+      </div><hr />
+
+      <div className="OurBoxFiveSwiggy">
+        <div className="OurBoxFiveSwiggyOne">
+          <b id="OurBoxFiveSwiggyOneOne">Ride with Swiggy</b>
+          <p id="OurBoxFiveSwiggyOnePara">Join our platform and earn regular payouts with exciting bonuses and
+            incentives, along with other benefits</p>
+          <button id="OurBoxFiveSwiggyOnebtn"><b>Apply Now</b></button>
+        </div>
+        <div className="OurBoxFiveSwiggyTwo"><img src={OurEight} alt="" /></div>
+
+      </div><hr />
+      <div className="OurBoxSixSwiggy">
+         <div className="OurBoxSixSwiggyOne">
+     <img src={Ournine} alt="" />
+         </div>
+           <div className="OurBoxSixSwiggyTwo">
+            <b id="OurBoxSixSwiggyTwoBlod">Swiggy Restaurant Partner Programme</b>
+            <p id="OurBoxSixSwiggyTwopara">Our unified app approach enables our partner base to benefit from a <br/>
+            larger user base across offerings, flexible and larger logistics and<br/>
+             delivery network, and tools to expand their businesses.</p>
+             <button id="OurBoxSixSwiggyTwoBtn"><b>Partner with us</b></button>
+           </div>
+      </div>
+    <div className="OurBoxSeveenSwiggy">
+      <img src={ourTen} alt="" />
+
+    </div>
     </>
   )
 }
