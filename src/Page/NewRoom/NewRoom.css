@@ -1,0 +1,185 @@
+.NewRoomOne {
+    height: 25vh;
+    width: 214vh;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    padding-top: 3vh;
+}
+
+#NewRoomOneOne {
+    margin-left: 90vh;
+}
+
+#NewRoomOnepara {
+    margin-left: 80vh;
+    margin-top: -1vh;
+    font-size: 3.2vh;
+    color: rgb(109, 107, 107);
+}
+
+.NewRoomTwo {
+    height: 30vh;
+    display: flex;
+    width: 214vh;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    padding-top: 6vh;
+}
+
+#NewRoomTwobtn {
+    height: 11vh;
+    width: 29vh;
+    background-color: orangered;
+    border: none;
+    border-radius: 5vh;
+    margin-left: 6vh;
+    color: white;
+    font-size: 3vh;
+}
+
+#NewRoomTwobtnTwo {
+    height: 11vh;
+    width: 29vh;
+    background-color: rgb(255, 255, 255);
+    border: 0.3vh solid rgb(137, 133, 133);
+    border-radius: 5vh;
+    margin-left: 6vh;
+    color: rgb(79, 78, 78);
+    font-size: 3vh;
+}
+
+.NewRoomTwoSearch input {
+    height: 11vh;
+    width: 90vh;
+    margin-left: 40vh;
+    border-radius: 2vh;
+    border: 0.3vh solid black;
+    box-sizing: border-box;
+    /* border: none;     */
+}
+
+.NewRoomTwoSearch input::placeholder {
+    font-size: 3vh;
+    padding-left: 3vh;
+    font-weight: bold;
+}
+
+.NewRoomThree {
+    height: 400vh;
+    width: 213vh;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.NewRoomThreeOne {
+    height: 93vh;
+    width: 66vh;
+    background-color: rgb(249, 236, 213);
+    margin-left: 4vh;
+    box-sizing: border-box;
+    border-radius: 5vh;
+   box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+}
+
+.NewRoomThreeOneOne {
+    height: 40vh;
+    width: 66vh;
+    /* background-color: rgb(245, 218, 182); */
+    border-radius: 5vh 5vh 0vh 0vh;
+  
+}
+
+.NewRoomThreeOneOne img {
+    height: 40vh;
+    width: 55vh;
+    border-radius: 5vh 5vh 0vh 0vh;
+    margin-left: 5vh;
+}
+
+.NewRoomThreeOneTwo {
+    height: 53vh;
+    width: 66vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0vh 0vh 5vh 5vh;
+    padding-top: 2vh;
+    box-sizing: border-box;
+
+}
+
+#NewRoomThreeOneTwoPara {
+    margin-left: 3vh;
+    color: rgb(88, 87, 87);
+    /* margin-top: 2vh; */
+}
+
+#NewRoomThreeOneTwoheading {
+    margin-left: 3vh;
+}
+
+#NewRoomThreeOneTwoBtn {
+    height: 6vh;
+    width: 20vh;
+    margin-left: 3vh;
+    margin-top: 20vh;
+    border-radius: 1vh;
+    border: none;
+    color: orangered;
+    background-color: rgb(241, 216, 207);
+}
+
+#NewRoomThreeOneTwoBtnONe {
+    height: 6vh;
+    width: 20vh;
+    margin-left: 3vh;
+    margin-top: 11vh;
+    border-radius: 1vh;
+    border: none;
+    color: orangered;
+    background-color: rgb(241, 216, 207);
+}
+.NewRoomFour img{
+    height: 50vh;
+    width: 214vh;
+    /* background-color: red; */
+}
+.NewRoomFive{
+    height: 50vh;
+    width: 214vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+align-items: center;
+}
+.NewRoomFiveOne{
+height: 45vh;
+width: 70vh;
+background-color: rgb(213, 221, 228);
+border-radius: 2vh;
+border-radius: 2vh 0vh 0vh 2vh;
+box-sizing: border-box;
+padding-top: 3vh;
+}
+
+.NewRoomFiveTwo{
+height: 45vh;
+width: 100vh;
+background-color: rgb(213, 221, 228);
+border-radius: 0vh 2vh 2vh 0vh;
+}
+#NewRoomFiveOneHeading{
+    margin-left: 4vh;
+}
+#NewRoomFiveTwone{
+    line-height: 7vh;
+    margin-left: 2vh;
+}
+#NewRoomFiveTwoTwo{
+    margin-left: 2vh;
+}
+#NewRoomFiveTwoThre{
+    position: absolute;
+    margin-left: 11.5vh;
+    color: orangered;
+    margin-top: -7.7vh;
+}

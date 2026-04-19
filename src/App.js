@@ -2,8 +2,8 @@ import logo from "./logo.svg";
 import "./App.css";
 // import DeliveringEveryone from "./Page/DeliveringEveryone/DeliveringEveryone";
 
-import OurBusinesses from "./Page/OurBusinesses/OurBusinesses";
-// import NewRoom from "./Page/NewRoom/NewRoom";
+// import OurBusinesses from "./Page/OurBusinesses/OurBusinesses";
+import NewRoom from "./Page/NewRoom/NewRoom";
 // import Header from './Componets/Header/Header.jsx';
 // import Mainpage from './Componets/Mainpage/Mainpage.jsx';
 // import Footer from "./Componets/Footer/Footer.jsx";
@@ -23,9 +23,9 @@ function App() {
     
 
       {/* <DeliveringEveryone/> */}
-     <OurBusinesses/>
+     {/* <OurBusinesses/> */}
 
-     {/* <NewRoom/> */}
+     <NewRoom/>
     </>
   );
 }
