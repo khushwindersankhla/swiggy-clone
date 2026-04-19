@@ -1,0 +1,76 @@
+.GovernanceOne {
+    height: 35vh;
+    width: 214vh;
+    background-color: wheat;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#GovernanceOneHeadinng {
+    font-size: 7vh;
+}
+
+.GovernanceTwo {
+    height: 10vh;
+    width: 214vh;
+    background-color: antiquewhite;
+    box-sizing: border-box;
+    margin-top: -5vh;
+}
+
+#GovernanceTwoOne {
+    margin-left: 5vh;
+    font-size: 6vh;
+}
+.GovernanceThree{
+    height: 200vh;
+    width: 214vh;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.GovernanceThreeOne{
+    height: 60vh;
+    width: 45vh;
+    background-color: rgb(255, 255, 255);
+    margin-left: 22vh;
+    margin-top: 5vh;
+}
+.GovernanceThreeOneOne{
+    height: 37vh;
+    width: 40vh;
+    background-color: rgb(255, 255, 255);
+
+}
+.GovernanceThreeOneTwo{
+    height: 20vh;
+    width: 40vh;
+    background-color: rgb(255, 255, 255);
+        
+}
+.GovernanceThreeOneOne img{
+    height: 37vh;
+    width: 35vh;
+
+}
+#GovernanceThreeOneTwoName{
+    color: rgb(41, 39, 39);
+}
+#GovernanceThreeOneTwopara{
+    margin-top: -3vh;
+    color: rgb(95, 89, 89);
+}
+#RenanDeCastro{
+     height: 37vh;
+    width: 35vh;
+    border-radius: 4vh;
+}
+.GoverFive{
+    height: 10vh;
+    width: 214vh;
+    background-color: tan;
+}
+.GoverFive h1{
+margin-left: 8vh;
+}
