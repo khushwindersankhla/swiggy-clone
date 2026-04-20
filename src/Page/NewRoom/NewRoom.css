@@ -79,7 +79,7 @@
     margin-left: 4vh;
     box-sizing: border-box;
     border-radius: 5vh;
-   box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .NewRoomThreeOneOne {
@@ -87,7 +87,7 @@
     width: 66vh;
     /* background-color: rgb(245, 218, 182); */
     border-radius: 5vh 5vh 0vh 0vh;
-  
+
 }
 
 .NewRoomThreeOneOne img {
@@ -138,46 +138,53 @@
     color: orangered;
     background-color: rgb(241, 216, 207);
 }
-.NewRoomFour img{
+
+.NewRoomFour img {
     height: 50vh;
     width: 214vh;
     /* background-color: red; */
 }
-.NewRoomFive{
+
+.NewRoomFive {
     height: 50vh;
     width: 214vh;
     background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
-align-items: center;
-}
-.NewRoomFiveOne{
-height: 45vh;
-width: 70vh;
-background-color: rgb(213, 221, 228);
-border-radius: 2vh;
-border-radius: 2vh 0vh 0vh 2vh;
-box-sizing: border-box;
-padding-top: 3vh;
+    align-items: center;
 }
 
-.NewRoomFiveTwo{
-height: 45vh;
-width: 100vh;
-background-color: rgb(213, 221, 228);
-border-radius: 0vh 2vh 2vh 0vh;
+.NewRoomFiveOne {
+    height: 45vh;
+    width: 70vh;
+    background-color: rgb(213, 221, 228);
+    border-radius: 2vh;
+    border-radius: 2vh 0vh 0vh 2vh;
+    box-sizing: border-box;
+    padding-top: 3vh;
 }
-#NewRoomFiveOneHeading{
+
+.NewRoomFiveTwo {
+    height: 45vh;
+    width: 100vh;
+    background-color: rgb(213, 221, 228);
+    border-radius: 0vh 2vh 2vh 0vh;
+}
+
+#NewRoomFiveOneHeading {
     margin-left: 4vh;
 }
-#NewRoomFiveTwone{
+
+#NewRoomFiveTwone {
     line-height: 7vh;
     margin-left: 2vh;
 }
-#NewRoomFiveTwoTwo{
+
+#NewRoomFiveTwoTwo {
     margin-left: 2vh;
 }
-#NewRoomFiveTwoThre{
+
+#NewRoomFiveTwoThre {
     position: absolute;
     margin-left: 11.5vh;
     color: orangered;

@@ -1,10 +1,12 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Sustainability from "./Page/Sustainability/Sustainbility";
+// import Investor from "./Page/Investor/Investor";
 // import DeliveringEveryone from "./Page/DeliveringEveryone/DeliveringEveryone";
 
 // import OurBusinesses from "./Page/OurBusinesses/OurBusinesses";
 // import NewRoom from "./Page/NewRoom/NewRoom";
-import Governance from "./Page/Governance/Governance";
+// import Governance from "./Page/Governance/Governance";
 // import Header from './Componets/Header/Header.jsx';
 // import Mainpage from './Componets/Mainpage/Mainpage.jsx';
 // import Footer from "./Componets/Footer/Footer.jsx";
@@ -27,7 +29,9 @@ function App() {
      {/* <OurBusinesses/> */}
 
      {/* <NewRoom/> */}
-     <Governance/>
+     {/* <Governance/> */}
+     {/* <Investor/> */}
+     <Sustainability/>
     </>
   );
 }

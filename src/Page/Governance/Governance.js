@@ -6,6 +6,7 @@ import GoverFour from "./GovernanceImage/GovernanceFour.jpg"
 import GoverFive from "./GovernanceImage/GovernanceFive.jpg"
 import GoverSix from "./GovernanceImage/GovernanceSix.jpg"
 import GoverSeveen from "./GovernanceImage/GovernanceSeveen.jpg"
+import GoverEight from "./GovernanceImage/GovernanceImageScan.jpg"
 
 function Governance() {
     return (
@@ -87,6 +88,14 @@ function Governance() {
             </div>
 
             <div className="GoverFive"><h1>Committee Composition</h1></div>
+
+            {/* java script ad karna hai  */}
+
+
+
+            <div className="GoverSix">
+                <img src={GoverEight} alt="" />
+            </div>
         </>
     )
 }

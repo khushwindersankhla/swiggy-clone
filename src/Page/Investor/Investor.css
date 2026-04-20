@@ -1,0 +1,322 @@
+.InvestorOne {
+    height: 25vh;
+    width: 214vh;
+    background-color: rgb(250, 245, 245);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.InvestorTwo {
+    height: 79vh;
+    width: 214vh;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    background-color: rgb(250, 245, 245);
+}
+
+.InvestorTwoOne {
+    height: 50vh;
+    width: 200vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3vh;
+    display: flex;
+}
+
+.InvestorTwoOneOne {
+    height: 50vh;
+    width: 120vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3vh 0vh 0vh 3vh;
+}
+
+.InvestorTwoOneTwo {
+    height: 50vh;
+    width: 80vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0vh 3vh 3vh 0vh;
+}
+
+.InvestorTwoOneOne h1 {
+    font-size: 6vh;
+    margin-left: 14vh;
+    margin-top: 15vh;
+}
+
+#InvestorTwoOneBtnOne {
+    height: 7vh;
+    background-color: orangered;
+    width: 25vh;
+    border: none;
+    border-radius: 1.7vh;
+    margin-left: 15vh;
+    color: white;
+}
+
+#InvestorTwoOneBtnTwo {
+    height: 7vh;
+    background-color: rgb(255, 255, 255);
+    width: 25vh;
+    border: 0.5vh solid orangered;
+    border-radius: 1.7vh;
+    margin-left: 4vh;
+    color: orangered;
+}
+
+.InvestorTwoOneTwo img {
+    height: 57vh;
+    width: 60vh;
+
+}
+
+.InvestorThree {
+    height: 25vh;
+    width: 214vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.InvestorFour{
+    height: 100vh;
+    width: 214vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.InvestorFourOne{
+    height: 90vh;
+    width: 65vh;
+    background-color: antiquewhite;
+    margin: 2vh;
+    border-radius: 4vh;
+     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+.InvestorFourOneImage{
+    height: 35vh;
+    width: 65vh;
+    border-radius: 4vh 4vh 0vh 0vh;
+    background-color: antiquewhite;
+}
+.InvestorFourOneHeading{
+    height: 55vh;
+    width: 65vh;
+    border-radius: 0vh 0vh 4vh 4vh;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    padding-top: 1vh;
+}
+.InvestorFourOneImage img{
+    height: 35vh;
+    width: 45vh;
+    margin-left: 8vh;
+}
+#InvestorFourOneHeadingpara{
+    color: rgb(71, 68, 68);
+    margin: 4vh;
+}
+#InvestorFourOneHeadingbtn{
+
+    height: 8vh;
+    margin-top: 20vh;
+    width: 20vh;
+    background-color: rgb(241, 199, 184);
+    border: none;
+    border-radius: 2vh;
+    color: orangered;
+    margin-left: 4vh
+
+}
+#InvestorFourOneHeadingparagr{
+   margin-left: 4vh;
+   font-size: 3.5vh;
+    font-weight: 50vh
+}
+#InvestorFourOneHeadingbtnOne{
+     height: 8vh;
+    margin-top: 6vh;
+    width: 20vh;
+    background-color: rgb(241, 199, 184);
+    border: none;
+    border-radius: 2vh;
+    color: orangered;
+    margin-left: 4vh
+}
+#InvestorFourOneHeadingbtnThree{
+     height: 8vh;
+    margin-top: 6vh;
+    width: 20vh;
+    background-color: rgb(241, 199, 184);
+    border: none;
+    border-radius: 2vh;
+    color: orangered;
+    margin-left: 4vh
+}
+.InvertorFive{
+    height: 60vh;
+    width: 214vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+.InvertorFiveOne{
+    height: 50vh;
+   width: 200vh;
+   background-color: white;
+   border-radius: 4vh;
+   display: flex;
+}
+.InvertorFiveOneOne{
+    height: 50vh;
+    width: 120vh;
+   background-color: rgb(101, 29, 76);
+    border-radius: 4vh 0vh 0vh 4vh;
+    padding-top: 10vh;
+    box-sizing: border-box;
+}
+.InvertorFiveOneTwo{
+    height: 50vh;
+    width: 80vh;
+   background-color: rgb(101, 29, 76);
+    border-radius: 0vh 4vh 4vh 0vh;
+}
+.InvertorFiveOneOne b{
+    font-size: 4.4vh;
+    color: white;
+    margin-left: 18vh;
+    
+}
+.InvertorFiveOneOne input{
+    height: 6vh;
+   width: 50vh;
+   margin-left: 18vh;
+   margin-top: 3vh;
+   border: 0.3vh solid rgb(255, 255, 255);
+   background-color: rgb(101, 29, 76);
+   border-radius: 2vh;
+   position: sticky;
+}
+.InvertorFiveOneOne input::placeholder{
+    padding-left: 4vh;
+    font-size: 2.8vh;
+    color: white;
+ 
+}
+.InvertorFiveOneOne button{
+    height: 7vh;
+    width: 20vh;
+    margin-left: 8vh;
+    border-radius: 2vh;
+    border: none;
+    font-size: 3vh;
+}
+.InvertorFiveOneTwo img{
+     height: 60vh;
+    width: 52vh;
+    margin-top: -6vh;
+}
+.InvertorSix{
+    height: 130vh;
+    width: 214vh;
+     background-color: rgb(255, 255, 255);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.InvertorSixOne{
+    height: 120vh;
+    width: 190vh;
+    background-color: rgb(255, 255, 255);
+   display: flex;
+   border-radius: 3vh;
+}
+.InvertorSixOneOne{
+    height: 120vh;
+    width: 80vh;
+    background-color: rgb(237, 231, 231);
+    border-radius: 3vh 0vh 0vh 3vh;
+}
+.InvertorSixOneTwo{
+    height: 120vh;
+    width: 110vh;
+    background-color: rgb(237, 231, 231);
+     border-radius: 0vh 3vh 3vh 0vh;
+}
+#InvertorSixOneline{
+    height: 20vh;
+    width: 0.3vh;
+    background-color: rgb(78, 78, 79);
+    position: absolute;
+    margin-left: 70vh;
+    border: none;
+    border-radius: 2vh;
+}
+.InvertorSixOneOne h1{
+    margin-left: 10vh;
+}
+#InvertorSixOneTwoTwo{
+    margin-left: 10vh;
+}
+#InvertorSixOneTwoTThree{
+    margin-left: 10vh;
+    margin-top: -4vh;
+    font-size: 3.5vh;
+}
+#InvertorSixOneTwoFour{
+    font-size: 3.4vh;
+    color: orangered;
+}
+#InvertorSixOneTwoFive{
+    margin-left: 10vh;
+    font-size: 3.3vh;
+    margin-top: 2vh;color: rgb(89, 88, 88);
+}
+#InvertorSixOneTwoSix{
+   font-size: 4.5vh;
+    margin-left: 10vh;
+}
+#InvertorSixOneTwoSeveen{
+    font-size: 3.4vh;
+    margin-left: 10vh;
+    margin-top: -1vh;
+}
+#InvertorSixOneTwoEight{
+    margin-left: 10vh;
+    font-size: 3.4vh;
+    margin-top: -5vh;
+}
+#InvertorSixOneTwonine{
+    margin-left: 10vh;
+    font-size: 3.5vh;
+}
+#InvertorSixOneTwonTen{
+    color: orangered;
+    font-size: 3.3vh;
+}
+#InvertorSixOneTwoneleven{
+    margin-left: 10vh;
+    font-size: 3.4vh;
+}
+#Intime{
+    margin-left: 10vh;
+}
+#Address{
+    margin-left: 10vh;
+    font-size: 3.3vh;
+}
+#WEbiste{
+    margin-left: 10vh;
+    font-size: 3.5vh;
+}
+#innnn{
+    color: orangered;
+    font-size: 3.3vh;
+}
+.InvertorSeveen img{
+    height: 50vh;
+    width: 214vh;
+    /* background-color: antiquewhite; */
+}
