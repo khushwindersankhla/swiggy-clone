@@ -1,0 +1,204 @@
+.SustainabilityOne {
+    height: 90vh;
+    width: 214vh;
+    background-color: rgb(242, 241, 243);
+    padding-top: 8vh;
+    box-sizing: border-box;
+}
+
+#SustainabilityOneHeading {
+    margin-left: 40vh;
+}
+
+#Respo {
+    margin-top: -10.9vh;
+    margin-left: 137vh;
+    color: green;
+}
+
+#SustainabilityOnepara {
+    margin-left: 40vh;
+    font-size: 3.6vh;
+    color: rgb(84, 82, 82);
+}
+
+.SustainabilityOneVedio {
+    height: 100vh;
+    width: 180vh;
+    background-color: rgb(31, 116, 190);
+    position: absolute;
+    margin-left: 20vh;
+    border-radius: 3vh;
+    z-index: 1;
+}
+
+
+.SustainabilityOneVedio iframe {
+    width: 100%;
+    height: 600px;
+    border-radius: 3vh;
+}
+
+.SustainabilityTwo {
+    height: 20vh;
+    width: 214vh;
+    background-color: rgb(255, 255, 255);
+    margin-top: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SustainabilityTwo h1 {
+    color: black;
+}
+
+#OurLineOne {
+    height: 0.6vh;
+    width: 13vh;
+    position: absolute;
+    margin-left: -14vh;
+    background-color: orangered;
+    border: none;
+    margin-top: 4vh;
+}
+
+#OurLineTwo {
+    height: 0.6vh;
+    width: 13vh;
+    position: absolute;
+    margin-left: 34vh;
+    background-color: orangered;
+    border: none;
+    margin-top: -3vh;
+}
+
+
+.SustainabilityThree {
+    height: 70vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    overflow-x: auto;
+    /* scroll yaha hi rakho */
+    scroll-behavior: smooth;
+}
+
+.SustainabilityThreeOne {
+    height: 50vh;
+    width: 50vh;
+    background-color: antiquewhite;
+    margin-left: 5vh;
+}
+
+.SustainabilityThreeMain {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.SustainabilityThree::-webkit-scrollbar {
+    display: none;
+}
+
+.SustainabilityThreeOneOne {
+    height: 50vh;
+    width: 30vh;
+    background-color: rgb(17, 121, 13);
+    margin: 1vh;
+}
+
+.SustainabilityThreeOne {
+    height: 52vh;
+    width: 52vh;
+    flex-shrink: 0;
+    border-radius: 4vh;
+    border: 0.1vh solid whitesmoke;
+    background: linear-gradient(135deg, #9FE3C3 0%, #E9EFF1 100%);
+}
+
+.SustainabilityThreeOneOne {
+    height: 53vh;
+    width: 30vh;
+    margin-left: 1vh;
+    border-radius: 4vh;
+    /* border: 0.1vh solid whitesmoke; */
+    flex-shrink: 0;
+    margin-top: -0.3vh;
+    background-color: rgb(22, 156, 129);
+}
+
+#Safely {
+    margin-left: 10vh;
+    font-size: 3.4vh;
+}
+
+#cr {
+    margin-left: 10vh;
+    color: rgb(8, 113, 8);
+    font-size: 7vh;
+    margin-top: -2vh;
+}
+
+#Insur {
+    margin-left: 10vh;
+    margin-top: -4vh;
+    font-size: 3vh;
+}
+
+#BtnOneGreen {
+    height: 9vh;
+    width: 9vh;
+    background-color: rgb(8, 113, 8);
+    margin-left: 37vh;
+    border-radius: 5vh;
+    margin-top: 10vh;
+}
+
+#BtnOneGreenOne {
+    height: 9vh;
+    width: 9vh;
+    background-color: rgb(8, 113, 8);
+    margin-left: 37vh;
+    border-radius: 5vh;
+    margin-top: 15vh;
+}
+
+#BtnOneGreenTwo {
+    height: 9vh;
+    width: 9vh;
+    background-color: rgb(8, 113, 8);
+    margin-left: 37vh;
+    border-radius: 5vh;
+    margin-top: 15vh;
+}
+
+#BtnOneGreenThree {
+    height: 9vh;
+    width: 9vh;
+    background-color: rgb(8, 113, 8);
+    margin-left: 37vh;
+    border-radius: 5vh;
+    margin-top: 7vh;
+}
+
+#BtnOneGreenFour {
+    height: 9vh;
+    width: 9vh;
+    background-color: rgb(8, 113, 8);
+    margin-left: 37vh;
+    border-radius: 5vh;
+    margin-top: 11vh;
+}
+
+#Fly {
+    color: white;
+    margin-left: 2.3vh;
+    margin-top: 2vh;
+    font-size: 4vh;
+}
+
+.SustainabilityThreeOneOne img {
+    height: 53vh;
+    width: 30vh;
+    border-radius: 4vh;
+}
