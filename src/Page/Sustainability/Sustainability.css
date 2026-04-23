@@ -202,3 +202,232 @@
     width: 30vh;
     border-radius: 4vh;
 }
+
+.SustainabilityFour {
+    height: 30vh;
+    width: 214vh;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 3.5vh;
+}
+
+#OurLineOneONe {
+    height: 0.6vh;
+    width: 20vh;
+    background: orangered;
+    position: absolute;
+    margin-left: -105vh;
+    border: none;
+    margin-top: 4vh;
+}
+
+#OurLineOneTwo {
+    height: 0.6vh;
+    width: 20vh;
+    background: orangered;
+    position: absolute;
+    margin-left: 105vh;
+    border: none;
+    margin-top: 4vh;
+
+}
+
+.SustainabilityFive {
+    height: 70vh;
+    width: 214vh;
+    background-color: #ecf9fa;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+.SustainabilityFiveOne {
+    height: 50vh;
+    width: 50vh;
+    background: linear-gradient(135deg, #f4f4f6 0%, #E6EBEF 100%);
+    margin: 3vh;
+    border-radius: 5vh;
+    border: 0.2vh solid white;
+}
+
+#CLIMATE {
+    margin-left: 4vh;
+}
+
+#smarter {
+    margin-left: 4vh;
+}
+
+#smarterBtnOne {
+    height: 8vh;
+    width: 20vh;
+    background-color: orangered;
+    margin-left: 4vh;
+    color: white;
+    border: none;
+    border-radius: 3vh;
+    margin-top: 10vh;
+}
+
+#smarterBtntwo {
+    height: 8vh;
+    width: 20vh;
+    background-color: orangered;
+    margin-left: 4vh;
+    color: white;
+    border: none;
+    border-radius: 3vh;
+    margin-top: 6vh;
+}
+
+#smarterBtnThree {
+    height: 8vh;
+    width: 20vh;
+    background-color: orangered;
+    margin-left: 4vh;
+    color: white;
+    border: none;
+    border-radius: 3vh;
+    margin-top: 2vh;
+}
+
+.SustainabilitySix {
+    height: 20vh;
+    width: 214vh;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+
+#REport {
+    height: 0.6vh;
+    width: 10vh;
+    background-color: orangered;
+    position: absolute;
+    margin-left: -70vh;
+    margin-top: 2.5vh;
+    border-radius: 3vh;
+    border: none;
+}
+
+#REpot {
+    height: 0.6vh;
+    width: 10vh;
+    background-color: orangered;
+    position: absolute;
+    margin-left: 70vh;
+    margin-top: 2.5vh;
+    border-radius: 3vh;
+    border: none;
+}
+
+.SustainabilitySeveen {
+    height: 50vh;
+    width: 214vh;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.SustainabilitySeveenOne {
+    height: 45vh;
+    width: 170vh;
+    background-color: rgb(245, 230, 205);
+    border-radius: 4vh;
+}
+
+.SustainabilitySeveenOne h2 {
+    margin-left: 10vh;
+}
+
+.SustainabilitySeveenOne p {
+    margin-left: 10vh;
+    font-size: 3.4vh;
+}
+
+.SustainabilitySeveenOne button {
+    margin-left: 10vh;
+    height: 7vh;
+    width: 18vh;
+    background-color: orangered;
+    border: none;
+    color: white;
+    margin-top: 4vh;
+    border-radius: 2vh;
+}
+
+.SustainabilitySeveenOne img {
+    position: absolute;
+    height: 50vh;
+    width: 50vh;
+    margin-left: 90vh;
+    margin-top: -22vh;
+}
+
+.card {
+    width: 90%;
+    margin: 40px auto;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    background: #f3f3f3;
+    border-radius: 25px;
+}
+
+/* LEFT SIDE */
+.left {
+    flex: 1;
+}
+
+.left h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1f2937;
+    line-height: 1.3;
+}
+
+/* DIVIDER */
+.divider {
+    width: 2px;
+    height: 120px;
+    background: #d1d5db;
+}
+
+/* RIGHT SIDE */
+.right {
+    flex: 2;
+}
+
+.right h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.right h4 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.right p {
+    color: #4b5563;
+    margin-bottom: 10px;
+}
+
+.email {
+    color: #ff5200;
+    font-weight: 600;
+}
+.SustainabilityEight img{
+    height: 40vh;
+    width: 214vh;
+    /* background-color: #4b5563; */
+}

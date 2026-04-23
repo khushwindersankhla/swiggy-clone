@@ -4,6 +4,8 @@ import { FaArrowUp } from "react-icons/fa6";
 import SusOne from "./SustainabilityImage/slideImageOne.jpg"
 import SusTwo from "./SustainabilityImage/slideImageTwo.jpg"
 import SusThree from "./SustainabilityImage/slideImageThree.jpg"
+import SusFour from "./SustainabilityImage/GirlsImage.jpg"
+import SusFive from "./SustainabilityImage/BoysImage.jpg"
 function Sustainability() {
 
   return (
@@ -74,6 +76,58 @@ function Sustainability() {
 
         </div>
       </div>
+
+      <div className="SustainabilityFour"><hr id="OurLineOneONe" /><h1>Our Sustainability Pillars</h1><hr id="OurLineOneTwo" /></div>
+      <div className="SustainabilityFive">
+        <div className="SustainabilityFiveOne">
+          <h2 id="CLIMATE">CLIMATE</h2>
+          <p id="smarter">Building smarter, cleaner systems<br /> that help us all thrive.</p>
+          <button id="smarterBtnOne">Konw more</button>
+        </div>
+        <div className="SustainabilityFiveOne">
+          <h2 id="CLIMATE">COMMUNITY</h2>
+          <p id="smarter">Building inclusive, resilient ecosystems where growth is shared and everyone thrives alongside us.</p>
+          <button id="smarterBtntwo">Konw more</button>
+        </div>
+        <div className="SustainabilityFiveOne">
+          <h2 id="CLIMATE">CONSCIENCE</h2>
+          <p id="smarter">Building trust through strong governance, transparency, and principled decisions, driving innovation and growth the right way.</p>
+          <button id="smarterBtnThree">Konw more</button>
+        </div>
+
+      </div>
+
+      <div className="SustainabilitySix"> <hr id="REport"/><h1>Reports & Publications</h1><hr id="REpot"/></div>
+      <div className="SustainabilitySeveen">
+        <div className="SustainabilitySeveenOne">
+          <h2>Joy Delivered. Spreading Smiles Across India.</h2>
+          <p>Swiggy’s FY2025 BRSR Report</p>
+          <button>Veiw Report</button>
+          <img src={SusFour} alt="" />
+        </div>
+      </div>
+       <div className="card">
+      
+      <div className="left">
+        <h2>For Sustainability<br />Related Queries</h2>
+      </div>
+
+      <div className="divider"></div>
+
+      <div className="right">
+        <h3>Contact Details:</h3>
+        <h4>Neha Singhvi</h4>
+        <p>
+          Vice President – Public Affairs, ESG & Corporate Communications
+        </p>
+        <p>
+          <strong>Email:</strong>{" "}
+          <span className="email">sustainability@swiggy.in</span>
+        </p>
+      </div>
+
+    </div>
+    <div className="SustainabilityEight"><img src={SusFive} alt="" /></div>
     </>
   )
 }

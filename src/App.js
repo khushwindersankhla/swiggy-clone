@@ -32,7 +32,7 @@ function App() {
      {/* <NewRoom/> */}
      {/* <Governance/> */}
      {/* <Investor/> */}
-     <Sustainability/>
+     {/* <Sustainability/> */}
      {/* <Contact/> */}
     </>
   );
