@@ -20,16 +20,19 @@
     width: 50vh;
     margin-top: -8vh;
 }
-#corporate{
+
+#corporate {
     margin-left: 40vh;
     color: white;
     margin-top: 3.4vh;
 }
-#partner{
-      margin-left: 5vh;
+
+#partner {
+    margin-left: 5vh;
     color: white;
     margin-top: 3.4vh;
 }
+
 #btn {
     height: 9vh;
     width: 25vh;
@@ -41,6 +44,7 @@
     font-size: 3vh;
     color: white;
 }
+
 #btn-two {
     height: 9vh;
     width: 20vh;
@@ -51,4 +55,67 @@
     border-radius: 2vh;
     font-size: 3vh;
     color: white;
+}
+
+.LoginBox {
+    height: 95vh;
+    margin-top: -20vh;
+    width: 70vh;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    border: 0.2vh solid whitesmoke;
+    margin-left: 143vh;
+}
+
+.closeIcon {
+    font-size: 5vh;
+    color: rgb(173, 170, 170);
+}
+
+#closeLogin {
+    margin-left: 7vh;
+}
+
+#account {
+    margin-left: 7vh;
+    margin-top: -2vh;
+    color: orangered;
+}
+
+#Linekhushw {
+    margin-left: 8vh;
+    width: 10vh;
+
+
+}
+
+#LoginNumber {
+    height: 11vh;
+    width: 60vh;
+    margin-left: 8vh;
+    margin-top: 4vh;
+    /* border: ; */
+    outline: none;
+}
+#LoginNumber::placeholder{
+    padding-left: 4vh;
+    font-size: 3vh;
+    /* font-weight: bold; */
+    color: rgb(172, 166, 166);
+}
+#jmeskhush{
+    height: 9vh;
+    width: 60vh;
+    background-color: orangered;
+    border: none;
+    margin-top: 3vh;
+    margin-left: 8vh;
+    /* border-radius: 2vh; */
+    color: white;
+}
+#clicking {
+    margin-left: 10vh;
+    font-weight: bold;
+    color: rgb(150, 143, 143);  
+    font-size: 2vh;
 }

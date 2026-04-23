@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Partner from "./Page/Partner/Partner";
+// import Partner from "./Page/Partner/Partner";
 // import Sustainability from "./Page/Sustainability/Sustainbility";
 // import Contact from "./Page/Contact/Contact";
 // import Investor from "./Page/Investor/Investor";
@@ -9,7 +9,7 @@ import Partner from "./Page/Partner/Partner";
 // import OurBusinesses from "./Page/OurBusinesses/OurBusinesses";
 // import NewRoom from "./Page/NewRoom/NewRoom";
 // import Governance from "./Page/Governance/Governance";
-// import Header from './Componets/Header/Header.jsx';
+import Header from './Componets/Header/Header.jsx';
 // import Mainpage from './Componets/Mainpage/Mainpage.jsx';
 // import Footer from "./Componets/Footer/Footer.jsx";
 // import Navbar from './Componets/Navbar/Navbar.jsx';
@@ -19,10 +19,10 @@ import Partner from "./Page/Partner/Partner";
 function App() {
   return (
     <>
-      {/* <Header/>
-    <Mainpage/>
-    <Navbar/>
-   */}
+      <Header/>
+    {/* <Mainpage/> */}
+    {/* <Navbar/> */}
+  
       {/* <AboutSwiggy/> */}
       {/* <Footer /> */}
     
@@ -35,7 +35,7 @@ function App() {
      {/* <Investor/> */}
      {/* <Sustainability/> */}
      {/* <Contact/> */}
-     <Partner/>
+     {/* <Partner/> */}
     </>
   );
 }
