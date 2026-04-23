@@ -1,7 +1,8 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Partner from "./Page/Partner/Partner";
 // import Sustainability from "./Page/Sustainability/Sustainbility";
-import Contact from "./Page/Contact/Contact";
+// import Contact from "./Page/Contact/Contact";
 // import Investor from "./Page/Investor/Investor";
 // import DeliveringEveryone from "./Page/DeliveringEveryone/DeliveringEveryone";
 
@@ -33,7 +34,8 @@ function App() {
      {/* <Governance/> */}
      {/* <Investor/> */}
      {/* <Sustainability/> */}
-     <Contact/>
+     {/* <Contact/> */}
+     <Partner/>
     </>
   );
 }

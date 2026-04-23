@@ -1,0 +1,171 @@
+.PartnerOne {
+    height: 55vh;
+    width: 214vh;
+    background-color: rebeccapurple;
+}
+
+#imageCountmer {
+    height: 55vh;
+    width: 214vh;
+
+}
+
+.partertwo {
+    height: 50vh;
+    width: 65vh;
+    z-index: 2;
+    background-color: rgb(239, 233, 233);
+    position: absolute;
+    margin-top: 3vh;
+    margin-left: 125vh;
+    border-radius: 3vh;
+}
+
+#imageCountmerOne {
+    height: 12vh;
+    width: 16vh;
+    margin-left: 30vh;
+    margin-top: 5vh;
+    position: absolute;
+}
+
+#WITH {
+    position: absolute;
+    color: white;
+    margin-top: 19vh;
+    margin-left: 36vh;
+}
+
+#Access {
+    position: absolute;
+    color: white;
+    margin-top: 22vh;
+    margin-left: 36vh;
+}
+
+#Started {
+    margin-left: 4vh;
+}
+
+#restaurant {
+    margin-left: 4vh;
+}
+
+#Restaurant {
+    height: 8vh;
+    width: 55vh;
+    margin-left: 4vh;
+    border-radius: 2vh;
+    border: none;
+    outline: none;
+}
+
+#Restaurant::placeholder {
+    padding-left: 3vh;
+    font-weight: bold;
+
+}
+
+#ContinueBtn {
+    height: 8vh;
+    border-radius: 2vh;
+    width: 55vh;
+    background: rgb(177, 173, 173);
+    margin-left: 4vh;
+    margin-top: 2vh;
+    border: none;
+}
+
+#logging {
+    font-size: 2vh;
+    font-weight: bold;
+    color: rgb(121, 119, 119);
+    margin-left: 8vh;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  font-family: "Poppins", sans-serif;
+  background: #f5f5f5;
+}
+
+.left {
+  width: 50%;
+}
+
+.small-text {
+  color: gray;
+  font-size: 14px;
+}
+
+h2 {
+  margin: 10px 0 20px;
+  font-weight: 700;
+}
+
+.card {
+  background: #d9d9df;
+  padding: 25px;
+  border-radius: 20px;
+}
+
+.step {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.icon {
+  color: #6c4cff;
+  margin-right: 15px;
+  margin-top: 5px;
+}
+
+.step-title {
+  font-size: 12px;
+  color: gray;
+  margin: 0;
+}
+
+.step h3 {
+  margin: 5px 0 0;
+  font-size: 18px;
+}
+
+/* RIGHT SIDE */
+.right {
+  width: 40%;
+}
+
+.right-title {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 15px;
+  font-size: 16px;
+  position: relative;
+  padding-left: 15px;
+}
+
+ul li::before {
+  content: "•";
+  color: orange;
+  position: absolute;
+  left: 0;
+}
+
+span {
+  color: orange;
+  margin-left: 10px;
+  cursor: pointer;
+}
